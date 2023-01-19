@@ -17,6 +17,7 @@ app.use(express.json());
 const loginRouter = require('./utilities/createjwt');
 const verifyjwtRouter = require('./utilities/verifyjwt');
 const destinationsRoute = require('./routes/destinations_route/destinations_route');
+const destinationCategoryRoute = require('./routes/destinations_route/destinationCategoriesRoute')
 
 
 //------------connect to the database with mongoose-------------//
@@ -34,7 +35,7 @@ mongoose.connect(uri, {
 app.use("/createjwt", loginRouter)
 app.use("/verifyjwt", verifyjwtRouter)
 app.use("/destinations", destinationsRoute)
-
+app.use('/destinationcategories', destinationCategoryRoute)
 
 //------Initial API-------//
 
