@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require('cors');
 require('dotenv').config()
 var cors = require('cors')
 const mongoose = require("mongoose")
@@ -59,6 +60,9 @@ app.get('/destinations', async(req, res)=>{
 app.use("/createjwt", loginRouter)
 app.use("/verifyjwt", verifyjwtRouter)
 
+app.get('/', (req, res) => {
+    res.send('Hello!!!')
+})
 
 app.listen(port, ()=>{
     console.log('server is on')
