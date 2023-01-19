@@ -1,22 +1,26 @@
 const express = require("express")
-const cors = require('cors');
 require('dotenv').config()
-var cors = require('cors')
+const cors = require('cors')
 const mongoose = require("mongoose")
-
-
 const port = process.env.PORT || 5000
 const app = express()
-app.use(cors())
-
-// require route
-const loginRouter = require('./utilities/createjwt')
-const verifyjwtRouter = require('./utilities/verifyjwt')
 
 
-//test
+// --------Middle Ware---------//
 
-// connect mongooes------------------------------------------//
+app.use(cors());
+app.use(express.json());
+
+
+//---------require route---------//
+
+const loginRouter = require('./utilities/createjwt');
+const verifyjwtRouter = require('./utilities/verifyjwt');
+const destinationsRoute = require('./routes/destinations_route/destinations_route');
+
+
+//------------connect to the database with mongoose-------------//
+
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@safar01.nospyhn.mongodb.net/safar`;
 mongoose.connect(uri, {
     useNewUrlParser: true,
@@ -24,41 +28,15 @@ mongoose.connect(uri, {
   });
 
 
-  
-// Create a new Mongoose schema 
-const destinationSchema = new mongoose.Schema({
-    name: String,
-    original_price: Number,
-    offer_price: Number,
-    review: Number,
-    price: Number,
-  });
 
+//-------router-------//
 
-// Create a Mongoose model from the schema
-const Destination_Card = mongoose.model('Destination_card', destinationSchema);
-
-
-
-app.get('/destinations', async(req, res)=>{
-    try{
-        Destination_Card.find({})
-        .then(destinations =>{
-            res.send(destinations)
-        })
-    }catch(err){
-        console.log(err)
-    }
-})
-
-
-
-
-
-
-//router
 app.use("/createjwt", loginRouter)
 app.use("/verifyjwt", verifyjwtRouter)
+app.use("/destinations", destinationsRoute)
+
+
+//------Initial API-------//
 
 app.get('/', (req, res) => {
     res.send('Hello!!!')
