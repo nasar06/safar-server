@@ -22,6 +22,8 @@ mongoose.connect(uri, {
     useUnifiedTopology: true
   });
 
+
+  
 // Create a new Mongoose schema 
 const destinationSchema = new mongoose.Schema({
     name: String,
