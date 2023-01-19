@@ -1,18 +1,19 @@
 const express = require("express")
 const cors = require('cors');
 require('dotenv').config()
+var cors = require('cors')
+const mongoose = require("mongoose")
+
 
 const port = process.env.PORT || 5000
-const app = express();
-
-// middle ware
+const app = express()
 app.use(cors())
-app.use(express.json())
-
 
 // require route
 const loginRouter = require('./utilities/createjwt')
 const verifyjwtRouter = require('./utilities/verifyjwt')
+
+
 
 
 //router
