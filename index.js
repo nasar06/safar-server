@@ -17,6 +17,7 @@ app.use(express.json());
 const loginRouter = require('./utilities/createjwt');
 const verifyjwtRouter = require('./utilities/verifyjwt');
 const destinationsRoute = require('./routes/destinations_route/destinations_route');
+const destinationCategoryRoute = require('./routes/destinations_route/destinationCategoriesRoute')
 
 
 //------------connect to the database with mongoose-------------//
@@ -34,7 +35,7 @@ mongoose.connect(uri, {
 app.use("/createjwt", loginRouter)
 app.use("/verifyjwt", verifyjwtRouter)
 app.use("/destinations", destinationsRoute)
-
+app.use('/destinationcategories', destinationCategoryRoute)
 
 //------Initial API-------//
 
@@ -45,3 +46,10 @@ app.get('/', (req, res) => {
 app.listen(port, ()=>{
     console.log('server is on')
 })
+
+
+
+
+// Model.find({ price: { $lt: 200, $gt: 100 } }).exec(function(err, docs) {
+    // docs is now an array of documents where the price is between 100 and 200
+//   });
