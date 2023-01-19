@@ -1,0 +1,82 @@
+[
+    {
+        "category_id": "01",
+        "district" : "Dhaka",
+        "stays": [
+            {"hotel": "APPAYAN GUEST HOUSE BARIDHARA"},
+            {"hotel": "Appayan Guest House Baridhara 02"},
+            {"hotel": "Appolo Dhaka Stay for 2 Person"},
+            {"hotel": "Aristocrat Inn"},
+            {"hotel": "Ascott Palace Dhaka"}
+        ]
+    },
+    {
+        "category_id": "02",
+        "district" : "Barishal",
+        "stays": [
+            {"hotel": "Hotel Grand Park Barishal"}
+        ]
+    },
+    {
+        "category_id": "03",
+        "district" : "Chattogram",
+        "stays": [
+            {"hotel": "Asian SR Hotel"},
+            {"hotel": "belarus"},
+            {"hotel": "Best Western Alliance, Chittagong"},
+            {"hotel": "bti landmark"},
+            {"hotel": "City Inn"}
+        ]
+    },
+    {
+        "category_id": "04",
+        "district" : "Khulna",
+        "stays": [
+            {"hotel": "Afroza villa, Akankha bashati"},
+            {"hotel": "Hotel Park Inn, Khulna"},
+            {"hotel": "Hotel Pushpo Bilash"},
+            {"hotel": "Hotel Rose Garden"},
+            {"hotel": "Jatra Flagship Khulna City Centre"}
+        ]
+    },
+    {
+        "category_id": "05",
+        "district" : "Rajshahi",
+        "stays": [
+            {"hotel": "Hotel Bonolota international"},
+            {"hotel": "Hotel Star International"},
+            {"hotel": "Hotel X Rajshahi"},
+            {"hotel": "Jatra Flagship Rajshahi City Centre"},
+            {"hotel": "Royal Raj Hotel"}
+        ]
+    },
+    {
+        "category_id": "06",
+        "district" : "Rangpur",
+        "stays": [
+            {"hotel": "Grand Palace Hotel & Resorts Rangpur"},
+            {"hotel": "Hotel Sadman"},
+            {"hotel": "Jatra Hotel Brothers"},
+            {"hotel": "Jatra Hotel KTS"},
+            {"hotel": "Little Rangpur Inn"}
+        ]
+    },
+    {
+        "category_id": "07",
+        "district" : "Mymensingh",
+        "stays": [
+            
+        ]
+    },
+    {
+        "category_id": "08",
+        "district" : "Sylhet",
+        "stays": [
+            {"hotel": "ABAB MONJIL"},
+            {"hotel": "Ahsan Guest House"},
+            {"hotel": "Al Ferdous Holiday Home"},
+            {"hotel": "Al Ferdous Holiday Home"},
+            {"hotel": "Aminvilla resort"}
+        ]
+    }
+]
