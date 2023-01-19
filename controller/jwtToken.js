@@ -19,7 +19,6 @@ const jwtToken = (res, user)=>{
 const jwtVerify = (req, res, next)=>{
 
     const header = req.headers['authorization']
-    console.log(header)
     if( typeof header !== 'undefined'){
         const headerKey = header.split(' ');
         const token = headerKey[1];
