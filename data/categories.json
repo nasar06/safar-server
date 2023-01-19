@@ -1,0 +1,74 @@
+[
+    {
+        "district" : "Dhaka",
+        "stays": [
+            {"name": "APPAYAN GUEST HOUSE BARIDHARA"},
+            {"name": "Appayan Guest House Baridhara 02"},
+            {"name": "Appolo Dhaka Stay for 2 Person"},
+            {"name": "Aristocrat Inn"},
+            {"name": "Ascott Palace Dhaka"}
+        ]
+    },
+    {
+        "Barishal" : "Barishal",
+        "stays": [
+            {"name": "Hotel Grand Park Barishal"}
+        ]
+    },
+    {
+        "Chattogram" : "Chattogram",
+        "stays": [
+            {"name": "Asian SR Hotel"},
+            {"name": "belarus"},
+            {"name": "Best Western Alliance, Chittagong"},
+            {"name": "bti landmark"},
+            {"name": "City Inn"}
+        ]
+    },
+    {
+        "Khulna" : "Khulna",
+        "stays": [
+            {"name": "Afroza villa, Akankha bashati"},
+            {"name": "Hotel Park Inn, Khulna"},
+            {"name": "Hotel Pushpo Bilash"},
+            {"name": "Hotel Rose Garden"},
+            {"name": "Jatra Flagship Khulna City Centre"}
+        ]
+    },
+    {
+        "Rajshahi" : "Rajshahi",
+        "stays": [
+            {"name": "Hotel Bonolota international"},
+            {"name": "Hotel Star International"},
+            {"name": "Hotel X Rajshahi"},
+            {"name": "Jatra Flagship Rajshahi City Centre"},
+            {"name": "Royal Raj Hotel"}
+        ]
+    },
+    {
+        "Rangpur" : "Rangpur",
+        "stays": [
+            {"name": "Grand Palace Hotel & Resorts Rangpur"},
+            {"name": "Hotel Sadman"},
+            {"name": "Jatra Hotel Brothers"},
+            {"name": "Jatra Hotel KTS"},
+            {"name": "Little Rangpur Inn"}
+        ]
+    },
+    {
+        "Mymensingh" : "Mymensingh",
+        "stays": [
+            
+        ]
+    },
+    {
+        "Sylhet" : "Sylhet",
+        "stays": [
+            {"name": "ABAB MONJIL"},
+            {"name": "Ahsan Guest House"},
+            {"name": "Al Ferdous Holiday Home"},
+            {"name": "Al Ferdous Holiday Home"},
+            {"name": "Aminvilla resort"}
+        ]
+    }
+]
