@@ -8,7 +8,7 @@ const destinationSchema = new mongoose.Schema({
 
 
 // Create a Mongoose model from the schema
-const Destination_Card = mongoose.model('Destination_card', destinationSchema);
+const Destination = mongoose.model('Destination', destinationSchema);
 
 
-exports.Destination_Card = Destination_Card
+exports.Destination = Destination

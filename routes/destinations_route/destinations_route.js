@@ -1,10 +1,10 @@
 const express = require('express');
-const { Destination_Card } = require('../../controller/destinations/destinations');
+const { Destination } = require('../../controller/destinations/destinations');
 const router = express.Router();
 
 router.get('/', async(req, res) => {
     try{
-        const result = await Destination_Card.find({});
+        const result = await Destination.find({});
         res.send(result)
     }
     catch(err){
