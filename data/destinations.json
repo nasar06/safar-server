@@ -1,5 +1,6 @@
 [
     {
+        "category_id": "01",
         "district": "Dhaka",
         "stays": [
             { 
