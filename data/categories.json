@@ -1,74 +1,82 @@
 [
     {
+        "category_id": "01",
         "district" : "Dhaka",
         "stays": [
-            {"name": "APPAYAN GUEST HOUSE BARIDHARA"},
-            {"name": "Appayan Guest House Baridhara 02"},
-            {"name": "Appolo Dhaka Stay for 2 Person"},
-            {"name": "Aristocrat Inn"},
-            {"name": "Ascott Palace Dhaka"}
+            {"hotel": "APPAYAN GUEST HOUSE BARIDHARA"},
+            {"hotel": "Appayan Guest House Baridhara 02"},
+            {"hotel": "Appolo Dhaka Stay for 2 Person"},
+            {"hotel": "Aristocrat Inn"},
+            {"hotel": "Ascott Palace Dhaka"}
         ]
     },
     {
-        "Barishal" : "Barishal",
+        "category_id": "02",
+        "district" : "Barishal",
         "stays": [
-            {"name": "Hotel Grand Park Barishal"}
+            {"hotel": "Hotel Grand Park Barishal"}
         ]
     },
     {
-        "Chattogram" : "Chattogram",
+        "category_id": "03",
+        "district" : "Chattogram",
         "stays": [
-            {"name": "Asian SR Hotel"},
-            {"name": "belarus"},
-            {"name": "Best Western Alliance, Chittagong"},
-            {"name": "bti landmark"},
-            {"name": "City Inn"}
+            {"hotel": "Asian SR Hotel"},
+            {"hotel": "belarus"},
+            {"hotel": "Best Western Alliance, Chittagong"},
+            {"hotel": "bti landmark"},
+            {"hotel": "City Inn"}
         ]
     },
     {
-        "Khulna" : "Khulna",
+        "category_id": "04",
+        "district" : "Khulna",
         "stays": [
-            {"name": "Afroza villa, Akankha bashati"},
-            {"name": "Hotel Park Inn, Khulna"},
-            {"name": "Hotel Pushpo Bilash"},
-            {"name": "Hotel Rose Garden"},
-            {"name": "Jatra Flagship Khulna City Centre"}
+            {"hotel": "Afroza villa, Akankha bashati"},
+            {"hotel": "Hotel Park Inn, Khulna"},
+            {"hotel": "Hotel Pushpo Bilash"},
+            {"hotel": "Hotel Rose Garden"},
+            {"hotel": "Jatra Flagship Khulna City Centre"}
         ]
     },
     {
-        "Rajshahi" : "Rajshahi",
+        "category_id": "05",
+        "district" : "Rajshahi",
         "stays": [
-            {"name": "Hotel Bonolota international"},
-            {"name": "Hotel Star International"},
-            {"name": "Hotel X Rajshahi"},
-            {"name": "Jatra Flagship Rajshahi City Centre"},
-            {"name": "Royal Raj Hotel"}
+            {"hotel": "Hotel Bonolota international"},
+            {"hotel": "Hotel Star International"},
+            {"hotel": "Hotel X Rajshahi"},
+            {"hotel": "Jatra Flagship Rajshahi City Centre"},
+            {"hotel": "Royal Raj Hotel"}
         ]
     },
     {
-        "Rangpur" : "Rangpur",
+        "category_id": "06",
+        "district" : "Rangpur",
         "stays": [
-            {"name": "Grand Palace Hotel & Resorts Rangpur"},
-            {"name": "Hotel Sadman"},
-            {"name": "Jatra Hotel Brothers"},
-            {"name": "Jatra Hotel KTS"},
-            {"name": "Little Rangpur Inn"}
+            {"hotel": "Grand Palace Hotel & Resorts Rangpur"},
+            {"hotel": "Hotel Sadman"},
+            {"hotel": "Jatra Hotel Brothers"},
+            {"hotel": "Jatra Hotel KTS"},
+            {"hotel": "Little Rangpur Inn"}
         ]
     },
     {
-        "Mymensingh" : "Mymensingh",
+        "category_id": "07",
+        "district" : "Mymensingh",
         "stays": [
             
         ]
     },
     {
-        "Sylhet" : "Sylhet",
+        "category_id": "08",
+        "district" : "Sylhet",
         "stays": [
-            {"name": "ABAB MONJIL"},
-            {"name": "Ahsan Guest House"},
-            {"name": "Al Ferdous Holiday Home"},
-            {"name": "Al Ferdous Holiday Home"},
-            {"name": "Aminvilla resort"}
+            {"hotel": "ABAB MONJIL"},
+            {"hotel": "Ahsan Guest House"},
+            {"hotel": "Al Ferdous Holiday Home"},
+            {"hotel": "Al Ferdous Holiday Home"},
+            {"hotel": "Aminvilla resort"}
         ]
     }
 ]
