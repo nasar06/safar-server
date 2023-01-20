@@ -10,8 +10,6 @@ const destinationCategoriesSchema = new mongoose.Schema({});
 
 
 
-
-
 //--------Create a Mongoose model from the schema-------//
 //Destinations Model
 const Destination = mongoose.model('Destination', destinationSchema);
