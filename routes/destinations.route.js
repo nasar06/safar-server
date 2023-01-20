@@ -21,6 +21,16 @@ router.get('/categories', async(req, res) => {
         console.log(err);
     }
 })
+router.get('/category', async(req, res) => {
+    try{
+        const id = req.params.id;
+        const result = await Destination.findOne({category_id: id});
+        res.send(result)
+    }
+    catch(err){
+        console.log(err);
+    }
+})
 
 
 
