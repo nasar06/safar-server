@@ -6,18 +6,10 @@ const port = process.env.PORT || 5000
 const app = express()
 
 
-// --------Middle Ware---------//
+// --------Middleware---------//
 
 app.use(cors());
 app.use(express.json());
-
-
-//---------require route---------//
-
-const loginRouter = require('./utilities/createjwt');
-const verifyjwtRouter = require('./utilities/verifyjwt');
-const destinationsRoute = require('./routes/destinations.route');
-
 
 
 //------------connect to the database with mongoose-------------//
@@ -30,11 +22,11 @@ mongoose.connect(uri, {
 
 
 
-//-------router-------//
 
-app.use("/createjwt", loginRouter)
-app.use("/verifyjwt", verifyjwtRouter)
-app.use("/destinations", destinationsRoute)
+const destinationRoute = require('./routes/destination.route')
+
+//-------router-------//
+app.use('/destination', destinationRoute)
 
 
 //------Initial API-------//
