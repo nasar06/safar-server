@@ -44,6 +44,10 @@ const getDestinationCategory = async (req, res) => {
     }
 };
 
+
+
+
 exports.getAllDestination = getAllDestination;
 exports.getDestinationCategories = getDestinationCategories;
-exports.getDestinationCategory = getDestinationCategory 
+exports.getDestinationCategory = getDestinationCategory;
+
