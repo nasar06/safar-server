@@ -21,7 +21,7 @@ router.get('/categories', async(req, res) => {
         console.log(err);
     }
 })
-router.get('/category', async(req, res) => {
+router.get('/category/:id', async(req, res) => {
     try{
         const id = req.params.id;
         const result = await Destination.findOne({category_id: id});
@@ -33,5 +33,3 @@ router.get('/category', async(req, res) => {
 })
 
 
-
-module.exports = router;
