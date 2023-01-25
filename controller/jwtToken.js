@@ -4,52 +4,35 @@ const tokenKey = process.env.ACCESS_TOKEN
 
 
 
-
 //create token
-const jwtToken = (res, user)=>{
+const jwtSign = (res, user)=>{
 
     jwt.sign({user}, tokenKey, {expiresIn: '15d'}, (error, token)=>{
-        console.log(tokenKey)
+        console.log(token)
         res.send({token})
     })  
 }
 
 
-//Verify jwt
-const jwtVerify = (req, res, next)=>{
+//verify jwt
+function verifyJwt(req, res, next) {
+    const authHeader = req.headers.authorization;
+    if (!authHeader) {
+        return res.status(401).send('unauthorize access-->')
+    }
 
-    const header = req.headers['authorization']
-    if( typeof header !== 'undefined'){
-        const headerKey = header.split(' ');
-        const token = headerKey[1];
-        console.log('inside profile',token)
-        req.token = token;
+    const token = authHeader.split(' ')[1]
+    jwt.verify(token, process.env.ACCESS_TOKEN, function (err, decoded) {
+        if (err) {
+            return res.status(403).send('forbidden access-->')
+        }
+        req.decoded = decoded
         next()
-    }
-    else{
-        res.send({
-            acknowledge: 'false',
-            
-        })
-    }
-}
-
-
-// token verify
-const tokenVerify = (req, res)=>{
-    jwt.verify(req.token, tokenKey, (err, data)=>{
-        if(err){
-            res.status(401).send('Invalid Token')
-        }
-        else{
-            res.json({
-                acknowledge: 'true'
-            })
-        }
     })
 }
 
 
-exports.jwtToken = jwtToken;
-exports.jwtVerify = jwtVerify;
-exports.tokenVerify = tokenVerify;
+
+exports.jwtSign = jwtSign;
+exports.verifyJwt = verifyJwt;
+
