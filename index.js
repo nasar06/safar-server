@@ -25,11 +25,12 @@ mongoose.connect(uri, {
 
 const destinationRoute = require('./routes/destination.route')
 const usersRoute = require('./routes/user.route')
+const searchPageRoute = require('./routes/search-page.route')
 
 //-------router-------//
 app.use('/destination', destinationRoute)
 app.use('/users', usersRoute)
-
+app.use('/search', searchPageRoute)
 
 
 //------Initial API-------//
