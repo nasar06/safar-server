@@ -1,5 +1,5 @@
 const { User } = require("../models/user.model");
-const { jwtSign } = require("./jwtToken");
+const { jwtSign } = require("../utilities/jwtToken");
 
 
 

@@ -1,5 +1,5 @@
 const express = require("express");
-const { verifyJwt } = require("../controller/jwtToken");
+const { verifyJwt } = require("../utilities/jwtToken");
 const { userInfo, usersProfile } = require("../controller/user.controller");
 const router = express.Router();
 
