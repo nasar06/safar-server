@@ -5,7 +5,7 @@ const { SearchLocation } = require("../models/search-page.model")
 const getDestinationBySearch = async (req, res)=>{
     
     try{
-        const result = await Destination.findOne({district: "Khulna"})
+        const result = await Destination.findOne({district: req.query.location})
         res.send(result)
     }
     catch(err){

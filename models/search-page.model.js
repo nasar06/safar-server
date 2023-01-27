@@ -1,14 +1,18 @@
-const mongoose = require("mongoose")
+// const mongoose = require("mongoose")
 
 
-//create schema
+// //create schema
 
-//SearchLocation Schema
-const searchLocationSchema = new mongoose.Schema({
-    location : {type: String}
-});
+// //User Schema
+// const searchLocationSchema = new mongoose.Schema({
+//     location : {type: String}
+// });
 
 
+// //create model
 
-//export Models
-exports.searchLocationSchema = searchLocationSchema
+// //SearchLocation Model
+// const SearchLocation = mongoose.model('Destination', searchLocationSchema);
+
+// //export Models
+// exports.SearchLocation = SearchLocation
