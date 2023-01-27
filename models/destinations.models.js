@@ -5,7 +5,10 @@ const mongoose = require("mongoose")
 //Destinations Schema
 const destinationSchema = new mongoose.Schema({
     category_id : {type: String},
-    district: {type: String}
+    district: {
+        type: String,
+      }
+    
 });
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({
