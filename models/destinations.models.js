@@ -4,7 +4,11 @@ const mongoose = require("mongoose")
 //--------- Create a new Mongoose schema -----------//
 //Destinations Schema
 const destinationSchema = new mongoose.Schema({
-    category_id : {type: String}
+    category_id : {type: String},
+    district: {
+        type: String,
+      }
+    
 });
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({

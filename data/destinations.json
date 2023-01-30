@@ -1,7 +1,7 @@
 [
     {
         "category_id": "01",
-        "district": "Dhaka",
+        "district": "DHAKA",
         "stays": [
             { 
              "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
@@ -103,7 +103,7 @@
     },
     {
         "category_id": "02",
-        "district": "Khulna",
+        "district": "BARISHAL",
         "stays": [
             { 
              "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
@@ -205,7 +205,517 @@
     },
     {
         "category_id": "02",
-        "district": "Khulna",
+        "district": "CHATTOGRAM",
+        "stays": [
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "inactive",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            }
+        ]
+    },
+    {
+        "category_id": "02",
+        "district": "KHULNA",
+        "stays": [
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "inactive",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            }
+        ]
+    },
+    {
+        "category_id": "02",
+        "district": "RAJSHAHI",
+        "stays": [
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "inactive",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            }
+        ]
+    },
+    {
+        "category_id": "02",
+        "district": "RANGPUR",
+        "stays": [
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "inactive",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            }
+        ]
+    },
+    {
+        "category_id": "02",
+        "district": "MYMENSINGH",
+        "stays": [
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "inactive",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            },
+            { 
+             "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
+             "location": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
+             "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+             "original_price": 143,
+             "offer_price": 136,
+             "yearly_deals": "active",
+             "monthly_deals": "inactive",
+             "review": 4,
+             "person": 2,
+             "contact":"0154466442",
+             "hotelId" : "9062086",
+             "affiliate": [
+                {
+                    "name": "booking.com",
+                    "price": 143,
+                    "url": "https://www.booking.com/hotel/bd/appayan-guest-house-baridhara.en.html?aid=7980199&no_rooms=1&group_adults=2"
+                }
+             ],
+             "images": [
+                {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
+                {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
+                {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
+                {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
+                {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
+                {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
+                {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
+                {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
+                {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
+                {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
+             ]
+            }
+        ]
+    },
+    {
+        "category_id": "02",
+        "district": "SYLHET",
         "stays": [
             { 
              "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
@@ -305,7 +815,5 @@
             }
         ]
     }
-   
-            
-    
+     
 ]
