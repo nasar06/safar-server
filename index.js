@@ -47,7 +47,12 @@ app.listen(port, ()=>{
     console.log('server is on')
 })
 
+const user = [
+    {size: "1 extra-large double bed"},
+  {size: "2 single beds"}
+  ]
 
+  console.log(JSON.stringify(user))
 
 
 // Model.find({ price: { $lt: 200, $gt: 100 } }).exec(function(err, docs) {
