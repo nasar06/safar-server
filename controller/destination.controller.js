@@ -14,6 +14,17 @@ const getAllDestination = async (req, res) => {
     }
 };
 
+const hotelDetails =async (req, res)=>{
+    try{
+        const hotel = await Destination.findOne({Hotel_id : req.params.hotelId})
+        res.send(hotel)
+    }
+    catch(err){
+        console.log(err)
+        res.send(err)
+    }
+}
+
 
 const getDestinationCategories = async (req, res) => {
     try {
@@ -31,8 +42,8 @@ const getDestinationCategories = async (req, res) => {
 
 const getDestinationCategory = async (req, res) => {
     try {
-
-        Destination.findOne({ category_id: req.params.id }, (err, doc) => {
+        console.log(req.params.city)
+        Destination.find({'location.city': req.params.city.toUpperCase()}, (err, doc) => {
             if (err) return res.status(500).send(err);
             if (!doc) return res.status(404).send('No document found');
             if(doc){
@@ -48,6 +59,7 @@ const getDestinationCategory = async (req, res) => {
 
 
 exports.getAllDestination = getAllDestination;
+exports.hotelDetails = hotelDetails;
 exports.getDestinationCategories = getDestinationCategories;
 exports.getDestinationCategory = getDestinationCategory;
 

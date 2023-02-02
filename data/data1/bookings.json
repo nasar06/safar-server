@@ -1,0 +1,19 @@
+[
+    {
+        "hotel_name" : "",
+        "description" : "",
+        "Location" : "",
+        "price" : "",
+        "Images" : "",
+        "Room_size" : "",
+        "Facilities " : "",
+        "Class" : "",
+        "Contact" : "",
+        "Hotel_id" : "",
+        "User_id" : "",
+        "User_name" : "",
+        "User_email" : "",
+        "User_phone" : "",
+        "user_address" : ""
+}
+]
