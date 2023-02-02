@@ -12,10 +12,11 @@ const getDestinationPrice = async (req, res) => {
         const { min, max, ...others } = req.query;
         console.log(min, max, others)
         try {
-                const hotels = await Destination.find({'location.city': others.city,
+                const hotels = await Destination.find({'location.city': others.city.toUpperCase(),
                 offer_price: { $gt: min || 1, $lt: max || 999 },
-                }).limit(req.query.limit);
+                });
                 res.status(200).json(hotels);
+                
         } catch (err) {
                 res.send(err);
                 console.log(err);
