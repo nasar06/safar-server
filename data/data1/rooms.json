@@ -556,5 +556,113 @@
         "Contact": "",
         "Hotel_id": 9107586,
         "Promoted": ""
+    },
+    {
+        "hotel_name": "Aristocrat Inn",
+        "description": "Located in Dhaka, 2.4 km from Consulate of Singapore, Aristocrat Inn has accommodations with a fitness center, free private parking, a shared lounge and a terrace. This 3-star hotel offers a business center and a concierge service. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property.The hotel will provide guests with air-conditioned rooms with a desk, a safety deposit box, a flat-screen TV, a balcony and a private bathroom with a shower. At Aristocrat Inn rooms contain bed linen and towels.A buffet, continental or Full English/Irish breakfast is available each morning at the property. At the accommodation you'll find a restaurant serving Chinese, British and Greek cuisine. Vegetarian, dairy-free and halal options can also be requested.Popular points of interest near Aristocrat Inn include Primeasia University, Southeast University and AIUB. The nearest airport is Hazrat Shahjalal International Airport, 6.9 km from the hotel.",
+        "location": {
+            "country": "bangladesh",
+            "city": "DHAKA",
+            "address": "House # 12, Road # 68/A, Gulshan-2, Gulshan, 1212 Dhaka, Bangladesh",
+            "zip_code": ""
+        },
+        "regular_price": 90,
+        "offer_price": 80,
+        "images":  [
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57550359.jpg?k=6f0f5bdb9f3049c867b38a8e75b5ec3a25c7970c33e23f49a29d2c3c1ccb0b9d&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/85448848.jpg?k=e9ec82e8827b331bed1c71c3efbda01888c8d540ccb6854fc1001ed7a7c31177&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57550290.jpg?k=7df30f195a9bf31898b4ea285a80938d6eceb9cca7f52f93d4ee6830a07d537a&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/335674072.jpg?k=a6c1a6368c67ab69fcace9b529726ff6c2c08d3ec2afec6f329d7ce0586dd0b3&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245810774.jpg?k=3bd44c2d51856ff038a5859bd0cb86c287f4350549e342a08135eec9c7c59d03&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245807486.jpg?k=5356222940b169ffd1fc49a5dc102a9d39658734d13b554b3fd940f80ebb7717&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245810982.jpg?k=60f7082298de1157ada16125ff993e61f9ee93c66f11135ff878a31364c0e200&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245811748.jpg?k=23b2b003af4d7a4a008f84c8e1f64eca5f00f964d103a5a24f66e78f414b1a69&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57556983.jpg?k=662b1e0d54bfde9a307239ab18ec1c85c85af91a0a067b0af084fe6478db0e4f&o=&hp=1"},
+            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/85447143.jpg?k=00748aa2d94701933454b905b3781d8ea0563a0a04fa777402cde27b6d9c2526&o=&hp=1"}
+         ],
+        "facilities": [
+            {"name": "Free WiFi"},
+            {"name": "Free parking"},
+            {"name": "Pet friendly"},
+            {"name": "Restaurant"},
+            {"name": "Air conditioning"},
+            {"name": "Private Bathroom"},
+            {"name": "View"},
+            {"name": "Bathtub"},
+            {"name": "Fitness center"}
+            
+        ],
+        "Room_type": [
+            
+            {
+                "name": "Deluxe Single Room",
+                "bed": [
+                    {
+                        "size": "1 twin bed"
+                    }
+                ],
+                "sleep": 1
+            },
+            {
+                "name": "Super Deluxe Single Room",
+                "bed": [
+                    {
+                        "size": "1 full bed"
+                    }
+                ],
+                "sleep": 1
+            },
+            {
+                "name": "Aristocrat Deluxe Couple",
+                "bed": [
+                    {
+                        "size": "1 twin bed"
+                    }
+                ],
+                "sleep": 2,
+                "children" : 1
+
+            },
+            {
+                "name": "Aristocrat Deluxe Twin",
+                "bed": [
+                    {
+                        "size": "2 twin beds"
+                    }
+                ],
+                "sleep": 2,
+                "children" : 1
+            },
+            {
+                "name": "Family Suite",
+                "bed": [
+                    {
+                        "size": "1 king bed"
+                    },
+                    {
+                        "size": "1 bunk bed"
+                    }
+                ],
+                "sleep": 3,
+                "children" : 2
+            },
+            {
+                "name": "Aristocrat Suite",
+                "bed": [
+                    {
+                        "size": "1 queen bed"
+                    }
+                ],
+                "sleep": 2,
+                "children" : 1
+            }
+           
+            
+        ],
+        "Yearly_deals": false,
+        "Monthly_deals": false,
+        "Contact": "",
+        "Hotel_id": 1442404,
+        "Promoted": ""
     }
 ]
