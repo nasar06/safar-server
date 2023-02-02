@@ -14,6 +14,17 @@ const getAllDestination = async (req, res) => {
     }
 };
 
+const hotelDetails =async (req, res)=>{
+    try{
+        const hotel = await Destination.findOne({Hotel_id : req.params.hotelId})
+        res.send(hotel)
+    }
+    catch(err){
+        console.log(err)
+        res.send(err)
+    }
+}
+
 
 const getDestinationCategories = async (req, res) => {
     try {
@@ -48,6 +59,7 @@ const getDestinationCategory = async (req, res) => {
 
 
 exports.getAllDestination = getAllDestination;
+exports.hotelDetails = hotelDetails;
 exports.getDestinationCategories = getDestinationCategories;
 exports.getDestinationCategory = getDestinationCategory;
 
