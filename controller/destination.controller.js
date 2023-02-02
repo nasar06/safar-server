@@ -31,8 +31,7 @@ const getDestinationCategories = async (req, res) => {
 
 const getDestinationCategory = async (req, res) => {
     try {
-
-        Destination.findOne({ category_id: req.params.id }, (err, doc) => {
+        Destination.findOne({ city: req.params.city.toLowerCase()}, (err, doc) => {
             if (err) return res.status(500).send(err);
             if (!doc) return res.status(404).send('No document found');
             if(doc){

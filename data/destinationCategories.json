@@ -1,56 +1,48 @@
 [
     {
-        "category_id": "01",
-        "district" : "Dhaka",
+        "city" : "Dhaka",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
         
     },
     {
-        "category_id": "02",
-        "district" : "Barishal",
+        "city" : "Barishal",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
         
     },
     {
-        "category_id": "03",
-        "district" : "Chattogram",
+        "city" : "Chattogram",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
        
     },
     {
-        "category_id": "04",
-        "district" : "Khulna",
+        "city" : "Khulna",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
         
     },
     {
-        "category_id": "05",
-        "district" : "Rajshahi",
+        "city" : "Rajshahi",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
         
     },
     {
-        "category_id": "06",
-        "district" : "Rangpur",
+        "city" : "Rangpur",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
         
     },
     {
-        "category_id": "07",
-        "district" : "Mymensingh",
+        "city" : "Mymensingh",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
         
     },
     {
-        "category_id": "08",
-        "district" : "Sylhet",
+        "city" : "Sylhet",
         "spots": "10",
         "img": "https://q-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
     }
