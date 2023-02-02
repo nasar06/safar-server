@@ -5,6 +5,6 @@ const {getAllDestination, getDestinationCategories, getDestinationCategory} = re
 
 router.get('/get-all-destinations', getAllDestination);
 router.get('/get-all-destination-categories', getDestinationCategories)
-router.get('/get-destination-category/:id', getDestinationCategory)
+router.get('/get-destination-category/:city', getDestinationCategory)
 
 module.exports = router;
