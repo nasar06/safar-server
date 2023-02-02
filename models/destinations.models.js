@@ -7,7 +7,7 @@ const destinationSchema = new mongoose.Schema({
     hotel_name: {type: String},
     description: {type: String},
     country: {type: String},
-    city : {type: String},
+    "location.city" : {type: String},
     address : {type: String},
     zip_code: {type: String},
     regular_price: {type: Number},
