@@ -20,7 +20,8 @@ const destinationSchema = new mongoose.Schema({
     Monthly_deals: {type: Boolean},
     Contact: {type: String},
     Hotel_id: {type: Number},
-    Promoted: {type: String}
+    Promoted: {type: String},
+    "location.city": {type: String}
 });
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({
