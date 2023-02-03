@@ -49,7 +49,6 @@ app.listen(port, ()=>{
 
 
 
-
 // Model.find({ price: { $lt: 200, $gt: 100 } }).exec(function(err, docs) {
     // docs is now an array of documents where the price is between 100 and 200
 //   });
