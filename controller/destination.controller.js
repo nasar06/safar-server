@@ -55,7 +55,7 @@ const postAllDestination =async (req, res) =>{
     try{
         const newRoom = req.body
        const result = await Destination.create(newRoom);
-       res.send(result)
+       res.send({acknowledge: true, result})
        
     }
     catch(err){
