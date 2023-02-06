@@ -31,8 +31,8 @@ const subscribeMail = (req, res)=>{
                 console.log("Error" + error)
             } else {
                 console.log("Email sent:" + info.response);
-                Subscribe.create(email)
                 res.status(201).json({status:201,info})
+                Subscribe.create({email})
             }
         })
 
