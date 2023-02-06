@@ -49,11 +49,11 @@ const sellerSchema = new mongoose.Schema({
     },
     first_name: {
         type: String,
-        required: true
+        // required: true
     },
     last_name: {
         type: String,
-        required: true
+        // required: true
     },
     role: {
         type: String,
@@ -62,43 +62,41 @@ const sellerSchema = new mongoose.Schema({
     mobile: {
         type: Number,
         unique: true,
-        required: true,
     },
    nid_no: {
         type: Number,
         unique: true,
-        required: true
     },
    nid_img: {
         type: String
     },
     img: {
         type: String,
-        required: true
+        // required: true
     },
     hotel_name: {
         type: String,
         unique: true,
-        required: true
+        // required: true
     },
     hotel_img: {
         type: String,
-        required: true
+        // required: true
     },
     hotel_location: {
         type: String,
-        required: true
+        // required: true
     },
     hotel_view: {
         type: String
     },
     country: {
         type: String,
-        required: true
+        // required: true
     },
     city: {
         type: String,
-        required: true
+        // required: true
     },
 });
 
