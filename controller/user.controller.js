@@ -49,6 +49,19 @@ const sellerInfo = async (req, res) => {
 };
 
 
+// all-seller get API
+const allSellers = async (req, res) => {
+    try{
+        const sellers = await Seller.find({});
+        res.send(sellers);
+    }
+    catch (err) {
+        console.error(err);
+        res.status(400).send(err);
+    }
+}
+
+
 // Seller update API
 const sellerUpdate = async (req, res) => {
     try{
@@ -68,3 +81,4 @@ exports.usersProfile = usersProfile;
 exports.userUpdate = userUpdate;
 exports.sellerInfo = sellerInfo;
 exports.sellerUpdate = sellerUpdate;
+exports.allSellers = allSellers;
