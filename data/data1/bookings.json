@@ -1,19 +1,95 @@
 [
     {
-        "hotel_name" : "",
-        "description" : "",
-        "Location" : "",
-        "price" : "",
-        "Images" : "",
-        "Room_size" : "",
-        "Facilities " : "",
-        "Class" : "",
+        "hotel_name" : "APPAYAN GUEST HOUSE BARIDHARA",
+        "location": {
+            "country": "bangladesh",
+            "city": "DHAKA",
+            "address": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4)",
+            "zip_code": ""
+        },
+        "description" : "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
+        "price" : 136,
+        "images": [
+            {
+                "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+            },
+            {
+                "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+            }
+        ],
+        "Room_type": [
+            {
+                "name": "family_room-with_balcony",
+                "bed": [
+                    {
+                        "size": "1 extra-large double bed"
+                    },
+                    {
+                        "size": "1 large double bed"
+                    }
+                ],
+                "sleep": 4
+            },
+    
+            {
+                "name": "deluxe_twin_room",
+                "bed": [
+                    {
+                        "size": "1 extra-large double bed"
+                    }
+                ],
+                "sleep": 2
+            },
+    
+            {
+                "name": "Double Room with Balcony",
+                "bed": [
+                    {
+                        "size": "2 single beds"
+                    }
+                ],
+                "sleep": 2
+            }
+        ],
+        "facilities": [
+            {"name": "free_WiFi"},
+            {"name": "free_parking"},
+            {"name": "Family rooms"},
+            {"name": "Room service"},
+            {"name": "Non-smoking rooms"}
+            
+        ],
         "Contact" : "",
-        "Hotel_id" : "",
+        "Hotel_id" : 9062086,
         "User_id" : "",
         "User_name" : "",
         "User_email" : "",
         "User_phone" : "",
-        "user_address" : ""
+        "user_address" : "",
+        "booking_id": 14452452
 }
 ]
