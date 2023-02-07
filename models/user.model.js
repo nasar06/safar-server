@@ -107,7 +107,7 @@ const organizerSchema = new mongoose.Schema({
 //User Model
 const User = mongoose.model('User', userSchema);
 
-//Seller Model
+//Organizer Model
 const Organizer = mongoose.model('Organizer', organizerSchema);
 
 //export Models
