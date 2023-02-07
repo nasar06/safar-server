@@ -47,6 +47,10 @@ const organizerSchema = new mongoose.Schema({
         unique: true,
         required: true
     },
+    role: {
+        type: String,
+        required: true
+    },
     __v: { type: Number, select: true },
 
     first_name: {
@@ -57,9 +61,9 @@ const organizerSchema = new mongoose.Schema({
         type: String,
         // required: true
     },
-    role: {
+    img: {
         type: String,
-        required: true
+        // required: true
     },
     mobile: {
         type: Number,
@@ -69,28 +73,9 @@ const organizerSchema = new mongoose.Schema({
         type: Number,
         unique: true,
     },
-   nid_img: {
-        type: String
-    },
-    img: {
-        type: String,
-        // required: true
-    },
-    hotel_name: {
-        type: String,
+   address: {
+        type: Number,
         unique: true,
-        // required: true
-    },
-    hotel_img: {
-        type: String,
-        // required: true
-    },
-    hotel_location: {
-        type: String,
-        // required: true
-    },
-    hotel_view: {
-        type: String
     },
     country: {
         type: String,
@@ -100,6 +85,32 @@ const organizerSchema = new mongoose.Schema({
         type: String,
         // required: true
     },
+    zip_code: {
+        type: Number,
+        // required: true
+    },
+    hotel_name: {
+        type: String,
+        unique: true,
+        // required: true
+    },
+    hotel_location: {
+        type: String,
+        // required: true
+    },
+
+   nid_img: {
+        type: String
+    },
+    hotel_img: {
+        type: String,
+        // required: true
+    },
+    
+    hotel_view: {
+        type: String
+    },
+    
 });
 
 //create model
