@@ -1,695 +1,2083 @@
 [
-    {
-        "hotel_name": "APPAYAN GUEST HOUSE BARIDHARA",
-        "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
-        "location": {
-            "country": "bangladesh",
-            "city": "DHAKA",
-            "address": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4)",
-            "zip_code": ""
+        {
+            "name": "family_room-with_balcony",
+            "rooms_no": 112244,
+            "price":136,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                },
+                {
+                    "size": "1 large double bed"
+                }
+            ],
+            "sleep": 4,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 143,
-        "offer_price": 136,
-        "images": [
-            {
-                "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
-            }
-        ],
-        "facilities": [
-            {"name": "free_WiFi"},
-            {"name": "free_parking"},
-            {"name": "Family rooms"},
-            {"name": "Room service"},
-            {"name": "Non-smoking rooms"}
-            
-        ],
-        "Room_type": [
-            {
-                "name": "family_room-with_balcony",
-                "rooms_no": 112244,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    },
-                    {
-                        "size": "1 large double bed"
-                    }
-                ],
-                "sleep": 4
-            },
-    
-            {
-                "name": "deluxe_twin_room",
-                "rooms_no": 112255,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 2
-            },
-    
-            {
-                "name": "Double Room with Balcony",
-                "rooms_no": 112266,
-                "bed": [
-                    {
-                        "size": "2 single beds"
-                    }
-                ],
-                "sleep": 2
-            }
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 9062086,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "Hotel Grand Park Barishal",
-        "description": "Hotel Grand Park Barishal has a garden, shared lounge, a terrace and restaurant in Barisāl. With a fitness center, the 3-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. There is free private parking and the property has paid airport shuttle service. The rooms in the hotel are equipped with a flat-screen TV. Hotel Grand Park Barishal provides certain accommodations with city views, and rooms have a balcony.Breakfast is available each morning, and includes buffet, continental and Full English/Irish options.  Speaking Bengali, English, Hindi and Urdu at the 24-hour front desk, staff are always at hand to help.The nearest airport is Barisal Airport,15 km from the accommodation.Couples in particular like the location – they rated it 9.6 for a two-person trip.",
-        "location": {
-            "country": "bangladesh",
-            "city": "BARISHAL",
-            "address": "Bangabandhu Udyan (Bell's Park) Band Road, 8200 Barisāl, Bangladesh – Great location",
-            "zip_code": ""
+        {
+            "name": "deluxe_twin_room",
+            "rooms_no": 112255,
+            "price":136,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 4,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 81,
-        "offer_price": 75,
-        "images": [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/190363904.jpg?k=c80beed141555342e378cec1c0f73769925507111d8870b12ce3e311934da6a6&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/160917747.jpg?k=8c71d550121dac2a70249710f538fd4bd487ee1a41e4a69532acaa0447285f7f&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/162149289.jpg?k=985fe8f99567d7b40fcb431e200f7f3515434923cde44a25a74b7a85e8b68068&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/190363907.jpg?k=ad39cb7ba68ab7893d598d24658f807bbda674cbbd45ba747d3e6c0edd369fa6&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/160917782.jpg?k=331192b5555d306c960deed134df7b2ba168637675ad4db373d49b3146f9f3fe&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/162083649.jpg?k=dbfa26638580139af9d503f5b6f7647f0df8cd7b0fd28f139612af0b4b6a6e0d&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/190363899.jpg?k=6956dbc700addd5b37a665ad39c0f85faba3008ce7118610e59edb50951534fd&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/162085961.jpg?k=1d3bf84e787d4993e52cd2e6ee771164f96e165f6d61f1f58553a52f66add040&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/301575418.jpg?k=66a4e2ffd56369d0e074ed53cf99670a82abacc108ed69f40e421f5ce8eb1ec4&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/301575504.jpg?k=067b1edf94eaed6767591b932090e8d33c411df666646a365797286afd4e9750&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "Airport shuttle"},
-            {"name": "free_WiFi"},
-            {"name": "free_parking"},
-            {"name": "Fitness centre"},
-            {"name": "Family rooms"},
-            {"name": "Room service"},
-            {"name": "Facilities for disabled guests"},
-            {"name": "Non-smoking rooms"}
-            
-        ],
-        "Room_type": [
-            {
-                "name": "Deluxe Double Room with Balcony",
-                "rooms_no": 223344,
-                "bed": [
-                    {
-                        "size": "2 single beds"
-                    }
-                ],
-                "sleep": 2,
-                "Today_price": 81
-            },
-    
-            {
-                "name": "Superior Twin Room",
-                "rooms_no": 223355,
-                "bed": [
-                    {
-                        "size": "2 single beds"
-                    }
-                ],
-                "sleep": 2,
-                "Today_price": 81
-            },
-    
-            {
-                "name": "Deluxe Double Room",
-                "rooms_no": 223366,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 3
-            },
-           
-            {
-                "name": "Suite",
-                "rooms_no": 223377,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                    
-                ],
-                "Living": [
-                    {
-                        "size": "1 sofa bed"
-                    }
-                ],
-                "sleep": 2
-            },
-            {
-                "name": "Family Suite",
-                "rooms_no": 223388,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    },
-                    {
-                        "size": "2 single beds"
-                    }
-                    
-                ],
-                "sleep": 4
-            },
-            {
-                "name": "Deluxe Single Room",
-                "rooms_no": 223399,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 1
-            }
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 4049735,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "Asian SR Hotel",
-        "description": "Asian SR Hotel is 100 m from Chittagong’s main bus stand (BRTC) and Chittagong’s main railway station. The hotel houses a restaurant and offers 24-hour room service.Located in the heart of the city center, the hotel is a 25-minute drive from the Shah Amanat International Airport.Fitted with a small seating area rooms feature satellite TV and a wardrobe. The attached bathroom comes with hot and cold water supply.Free internet access is available in the business center and in select rooms. Staff at the 24-hour front desk can assist with luggage storage, same-day laundry service and currency exchange services. Other facilities include meeting rooms and a tour desk.Open from breakfast through dinner, Asian SR’s restaurant serves Indian dishes, along with Thai, Chinese and European favorites.",
-        "location": {
-            "country": "bangladesh",
-            "city": "CHATTOGRAM",
-            "address": "291 Station Road, 4000 Chittagong, Bangladesh – Great location.",
-            "zip_code": ""
+        {
+            "name": "Double Room with Balcony",
+            "rooms_no": 112266,
+            "price":136,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 30,
-        "offer_price": 26,
-        "images":  [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302898081.jpg?k=828a47c091f76bcad698de9600522529f86a217ed17dce1935c8ad570d6ccf6e&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132899447.jpg?k=204abce866885518534469926b33cd371d9a0c73e47baaf41f6d642456c8f307&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132899368.jpg?k=ff041ad36bf604fe203de3409474922469646099606667fa7e6d7969beb0bdd4&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/9783283.jpg?k=ea4b424db59e2a88d97189058884bb4a56887994092382a2dfe6ebe8269b28e1&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132897996.jpg?k=dec91edc4f3da88af1d2cf34505719384cbec7288a16a72a26eef8d84c814036&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863578.jpg?k=1d1e395ef53bc728db2756bbaabc4c7064f227e15f7e1dc681d3e6e6c51cddfc&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863582.jpg?k=5f04bfbc1c18e3b8b0cd1138753d5e8a745ec734bb5d29721cd74901edef4ac1&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863587.jpg?k=1b43841221e6f31d086157d55536d7c388605ae1f9ba0e543c1ac978d69062cd&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/9783278.jpg?k=e1e301a7944f39082db54d49e0a7d1962f13077c89b7def0d7bad15d9391aea0&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863599.jpg?k=0b1f7e5cd8cbd95b3c01d2c64dbe73b837797651f336b528e384c8f08d3e7c36&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "free_WiFi"},
-            {"name": "Restaurant"},
-            {"name": "Room service"},
-            {"name": "Free parking"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "Deluxe Double Room",
-                "rooms_no": 332244,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    },
-                    {
-                        "size": "2 single beds"
-                    }
-                ],
-                "sleep": 2,
-                "price": 30
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 408907,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "Jatra Flagship Khulna City Centre",
-        "description": "Jatra Flagship Khulna City Centre is a 4-star property located in Khulna. This 4-star hotel offers a shared kitchen and a shared lounge. The property provides room service and a 24-hour front desk for guests.At the hotel each room comes with air conditioning, a desk, a flat-screen TV, a private bathroom, bed linen, towels and a balcony with a city view. Guest rooms will provide guests with a fridge.Guests at Jatra Flagship Khulna City Centre can enjoy a continental or an Asian breakfast.The nearest airport is Jessore, 64.4 km from the accommodation, and the property offers a paid airport shuttle service.Solo travelers in particular like the location – they rated it 8.5 for a one-person stay.",
-        "location": {
-            "country": "bangladesh",
-            "city": "KHULNA",
-            "address": "Road: 06 Sonadanga R/A 01 Flat # 5A & 5B, House # 30, ECO Chehra, 9100 Khulna, Bangladesh",
-            "zip_code": ""
+        {
+            "name": "Deluxe Double Room with Balcony",
+            "rooms_no": 223344,
+            "price":81,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 30,
-        "offer_price": 26,
-        "images":  [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302898081.jpg?k=828a47c091f76bcad698de9600522529f86a217ed17dce1935c8ad570d6ccf6e&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132899447.jpg?k=204abce866885518534469926b33cd371d9a0c73e47baaf41f6d642456c8f307&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132899368.jpg?k=ff041ad36bf604fe203de3409474922469646099606667fa7e6d7969beb0bdd4&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/9783283.jpg?k=ea4b424db59e2a88d97189058884bb4a56887994092382a2dfe6ebe8269b28e1&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132897996.jpg?k=dec91edc4f3da88af1d2cf34505719384cbec7288a16a72a26eef8d84c814036&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863578.jpg?k=1d1e395ef53bc728db2756bbaabc4c7064f227e15f7e1dc681d3e6e6c51cddfc&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863582.jpg?k=5f04bfbc1c18e3b8b0cd1138753d5e8a745ec734bb5d29721cd74901edef4ac1&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863587.jpg?k=1b43841221e6f31d086157d55536d7c388605ae1f9ba0e543c1ac978d69062cd&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/9783278.jpg?k=e1e301a7944f39082db54d49e0a7d1962f13077c89b7def0d7bad15d9391aea0&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98863599.jpg?k=0b1f7e5cd8cbd95b3c01d2c64dbe73b837797651f336b528e384c8f08d3e7c36&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "Airport shuttle"},
-            {"name": "Non-smoking rooms"},
-            {"name": "Room service"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "Double Room",
-                "rooms_no": 442244,
-                "bed": [
-                    {
-                        "size": "1 large double bed"
-                    }
-                ],
-                "sleep": 2
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 9229219,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "Hotel Bonolota international",
-        "description": "Located in Rājshāhi, Hotel Bonolota international offers 2-star accommodations with a terrace. This 2-star hotel offers room service and a 24-hour front desk. The hotel has family rooms.The rooms are equipped with a private bathroom with a bath or shower and free toiletries.The nearest airport is Shah Makhdum Airport, 10 km from the hotel.",
-        "location": {
-            "country": "bangladesh",
-            "city": "RAJSHAHI",
-            "address": "Court Station Road 6th, 6000 Rājshāhi, Bangladesh",
-            "zip_code": ""
+        {
+            "name": "Superior Twin Room",
+            "rooms_no": 223355,
+            "price":81,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 35,
-        "offer_price": 30,
-        "images":  [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339159137.jpg?k=36fbacf9ba5dd58445bd78e056822e1fb4f6dbf9881b2752cf597cc6a499f7ae&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339159136.jpg?k=a5e54a19bcb9088746bf3378f894e7a1f8787d2fd86ed5ff21ff641c88873525&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339159139.jpg?k=bb26f6b3f089e9aeb5861f453799002605734dcd9e39e9eef27f22d08fe9e230&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343607456.jpg?k=ad38bad1fa71d87a40079e3d4470099247ec1e43264c5ededd35aa3de515cf55&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339159143.jpg?k=b94c3acde871ca1c6000c9b2b3636d8d01b66d618b92778c4598458654b3c878&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339043837.jpg?k=a293b0fb5e57c2212660c68edb55bb75a343fd98617208ca7e74010406e5716d&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343607661.jpg?k=4faabf84f3d881d5f00aa5c62513bbc2c1d30a44a30724f6ab9d280f8144990d&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/344046210.jpg?k=8269f207c2c40cbe0866c34adde68036a480eabb0f7e50bd6b150220c0faf073&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/344046314.jpg?k=b81b7959735c19201af45508da2a54d69067202c3f507bafa575702729769b7f&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339159137.jpg?k=36fbacf9ba5dd58445bd78e056822e1fb4f6dbf9881b2752cf597cc6a499f7ae&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "Non-smoking rooms"},
-            {"name": "Room service"},
-            {"name": "Parking on site"},
-            {"name": "Family rooms"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "Single Room",
-                "rooms_no": 552244,
-                "bed": [
-                    {
-                        "size": "1 single bed"
-                    }
-                ],
-                "sleep": 1
-            },
-            {
-                "name": "Standard Twin Room",
-                "rooms_no": 552255,
-                "bed": [
-                    {
-                        "size": "2 single beds"
-                    }
-                ],
-                "sleep": 2
-            },
-            {
-                "name": "Standard Double Room",
-                "rooms_no": 552266,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 2
-            },
-            {
-                "name": "Basic Triple Room",
-                "rooms_no": 552277,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 3
-            },
-            {
-                "name": "Deluxe Double Room",
-                "rooms_no": 552288,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 2
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 8196212,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "Jatra Flagship Khulna City Centre",
-        "description": "Grand Palace Hotel & Resorts Rangpur features a fitness center, garden, a terrace and bar in Rangpur. This 4-star hotel offers a concierge service and a tour desk. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property.At the hotel every room is equipped with air conditioning, a seating area, a flat-screen TV with satellite channels, a safety deposit box and a private bathroom with a shower, free toiletries and a hairdryer. Each room has an electric tea pot, while selected rooms have a balcony and others also provide guests with city views. At Grand Palace Hotel & Resorts Rangpur all rooms are equipped with bed linen and towels.A buffet, à la carte or continental breakfast is served at the property. At the accommodation you'll find a restaurant serving Chinese, British and French cuisine. Vegetarian and halal options can also be requested.The nearest airport is Saidpur Airport, 43.5 km from Grand Palace Hotel & Resorts Rangpur.",
-        "location": {
-            "country": "bangladesh",
-            "city": "RANGPUR",
-            "address": "G L Roy Road, 5400 Rangpur, Bangladesh",
-            "zip_code": ""
+        {
+            "name": "Deluxe Double Room",
+            "rooms_no": 223366,
+            "price":81,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 3,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 50,
-        "offer_price": 46,
-        "images":  [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142076687.jpg?k=007b07d5417cc36606bf373472ea4bb929425f08994fbaa3ab8ed6636f4fdff6&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142241045.jpg?k=ba72bbf6a3c6d9d83f1effc6d1b761b41d99fd3476bcb4696fc6eedaedc22d8b&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142084547.jpg?k=934294d3362fa3639be4580a537c5084eea2a513fda0ea548a20a700d772d069&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142130888.jpg?k=b82a8d23e2641682c7d801f4eae5b99605db9e56584679642352f94230151e28&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142242993.jpg?k=bfd8703dac41c51273a1bb9ffa775f7d185e2e16df8557720f54e78e4f26d7f1&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142084539.jpg?k=00e88ba1d8cd127148eb3102cbb17a3108c2daeee628644f4225699f8bfd4adf&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142242778.jpg?k=a63d33d8adb59032e4e0e88318604cd1bb22e620cf974450386ec13312ae0074&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142241384.jpg?k=3b2af31f991e55a64d327e7daed8253f3535b6ac121ab59d82195c8a7eccfc15&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142130916.jpg?k=463e60448aea988c7e5a0af8c324bc244cff54f06e62f2b5c11e392c851932b2&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142242984.jpg?k=014a03ac2a526cc04c44d6a69b8159afaf2b2551bebcb3779e8fffb72b6b44a5&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "Non-smoking rooms"},
-            {"name": "Family rooms"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "King Room with Garden View",
-                "rooms_no": 662244,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 2
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 3256856,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "APPAYAN GUEST HOUSE BARIDHARA",
-        "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
-        "location": {
-            "country": "bangladesh",
-            "city": "MYMENSINGH",
-            "address": "Kalachandpur Main Road 9, Cafe Jill,resturent circle, 42 (Floor 4), 1212 Dhaka, Bangladesh",
-            "zip_code": ""
+        {
+            "name": "Suite",
+            "rooms_no": 223377,
+            "price":81,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+                
+            ],
+            "Living": [
+                {
+                    "size": "1 sofa bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 16,
-        "offer_price": 14,
-        "images":  [
-            {"url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"},
-            {"url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"},
-            {"url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"},
-            {"url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"},
-            {"url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"},
-            {"url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"},
-            {"url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"},
-            {"url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"},
-            {"url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"},
-            {"url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"}
-         ],
-        "facilities": [
-            {"name": "Non-smoking rooms"},
-            {"name": "Family rooms"},
-            {"name": "Free WiFi"},
-            {"name": "Free parking"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "Family Room with Balcony",
-                "rooms_no": 772244,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    },
-                    {
-                        "size": "1 large double bed"
-                    }
-                ],
-                "sleep": 3
-            },
-            {
-                "name": "Double Room with Balcony",
-                "rooms_no": 772255,
-                "bed": [
-                    {
-                        "size": "1 extra-large double bed"
-                    }
-                ],
-                "sleep": 2
-            },
-            {
-                "name": "Deluxe Twin Room",
-                "rooms_no": 772266,
-                "bed": [
-                    {
-                        "size": "2 single beds"
-                    }
-                ],
-                "sleep": 2
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 10000000,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "ABAB MONJIL",
-        "description": "ABAB MONJIL is offering accommodations in Sylhet. There's a terrace and guests can use free WiFi and free private parking.Complete with a private bathroom equipped with a shower, all rooms at the guesthouse have a flat-screen TV and air conditioning, and some rooms also feature a balcony.The nearest airport is Osmani International Airport, 10 km from ABAB MONJIL.",
-        "location": {
-            "country": "bangladesh",
-            "city": "SYLHET",
-            "address": "Masjid Road, 3100 Sylhet, Bangladesh",
-            "zip_code": ""
+        {
+            "name": "Family Suite",
+            "rooms_no": 223388,
+            "price":81,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                },
+                {
+                    "size": "2 single beds"
+                }
+                
+            ],
+            "sleep": 4,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 90,
-        "offer_price": 80,
-        "images":  [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828200.jpg?k=c03b3ad780b8af395020a888e0e60b39a662497370e10a5dca2e2e35cd504e85&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828225.jpg?k=888572ebe67041efdd9c1f8f04135b3114ecd2c5bb2560d19d9f3ad1862f6c4c&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828229.jpg?k=6cd0794a3719d1c0543a04fd166c4f02d6f2c5bc14813e987a14f4948303546a&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828230.jpg?k=1c466be3f5ab0a0589ce9d87aceabd825aa3f4d408f9df5bc1de6d5291590843&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828234.jpg?k=9bf561a7c62bd35a0eda4fea2f34c85e9ee2d0fd09d08a84165ff8b5f8dc321b&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828200.jpg?k=c03b3ad780b8af395020a888e0e60b39a662497370e10a5dca2e2e35cd504e85&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828225.jpg?k=888572ebe67041efdd9c1f8f04135b3114ecd2c5bb2560d19d9f3ad1862f6c4c&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828230.jpg?k=1c466be3f5ab0a0589ce9d87aceabd825aa3f4d408f9df5bc1de6d5291590843&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828229.jpg?k=6cd0794a3719d1c0543a04fd166c4f02d6f2c5bc14813e987a14f4948303546a&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399828234.jpg?k=9bf561a7c62bd35a0eda4fea2f34c85e9ee2d0fd09d08a84165ff8b5f8dc321b&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "Free WiFi"},
-            {"name": "Free parking"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "Double Room with Balcony",
-                "rooms_no": 882244,
-                "bed": [
-                    {
-                        "size": "3 double beds"
-                    }
-                ],
-                "sleep": 6
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 9107586,
-        "Promoted": ""
-    },
-    {
-        "hotel_name": "Aristocrat Inn",
-        "description": "Located in Dhaka, 2.4 km from Consulate of Singapore, Aristocrat Inn has accommodations with a fitness center, free private parking, a shared lounge and a terrace. This 3-star hotel offers a business center and a concierge service. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property.The hotel will provide guests with air-conditioned rooms with a desk, a safety deposit box, a flat-screen TV, a balcony and a private bathroom with a shower. At Aristocrat Inn rooms contain bed linen and towels.A buffet, continental or Full English/Irish breakfast is available each morning at the property. At the accommodation you'll find a restaurant serving Chinese, British and Greek cuisine. Vegetarian, dairy-free and halal options can also be requested.Popular points of interest near Aristocrat Inn include Primeasia University, Southeast University and AIUB. The nearest airport is Hazrat Shahjalal International Airport, 6.9 km from the hotel.",
-        "location": {
-            "country": "bangladesh",
-            "city": "DHAKA",
-            "address": "House # 12, Road # 68/A, Gulshan-2, Gulshan, 1212 Dhaka, Bangladesh",
-            "zip_code": ""
+        {
+            "name": "Deluxe Single Room",
+            "rooms_no": 223399,
+            "price":81,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
         },
-        "regular_price": 90,
-        "offer_price": 80,
-        "images":  [
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57550359.jpg?k=6f0f5bdb9f3049c867b38a8e75b5ec3a25c7970c33e23f49a29d2c3c1ccb0b9d&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/85448848.jpg?k=e9ec82e8827b331bed1c71c3efbda01888c8d540ccb6854fc1001ed7a7c31177&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57550290.jpg?k=7df30f195a9bf31898b4ea285a80938d6eceb9cca7f52f93d4ee6830a07d537a&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/335674072.jpg?k=a6c1a6368c67ab69fcace9b529726ff6c2c08d3ec2afec6f329d7ce0586dd0b3&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245810774.jpg?k=3bd44c2d51856ff038a5859bd0cb86c287f4350549e342a08135eec9c7c59d03&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245807486.jpg?k=5356222940b169ffd1fc49a5dc102a9d39658734d13b554b3fd940f80ebb7717&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245810982.jpg?k=60f7082298de1157ada16125ff993e61f9ee93c66f11135ff878a31364c0e200&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245811748.jpg?k=23b2b003af4d7a4a008f84c8e1f64eca5f00f964d103a5a24f66e78f414b1a69&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57556983.jpg?k=662b1e0d54bfde9a307239ab18ec1c85c85af91a0a067b0af084fe6478db0e4f&o=&hp=1"},
-            {"url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/85447143.jpg?k=00748aa2d94701933454b905b3781d8ea0563a0a04fa777402cde27b6d9c2526&o=&hp=1"}
-         ],
-        "facilities": [
-            {"name": "Free WiFi"},
-            {"name": "Free parking"},
-            {"name": "Pet friendly"},
-            {"name": "Restaurant"},
-            {"name": "Air conditioning"},
-            {"name": "Private Bathroom"},
-            {"name": "View"},
-            {"name": "Bathtub"},
-            {"name": "Fitness center"}
-            
-        ],
-        "Room_type": [
-            
-            {
-                "name": "Deluxe Single Room",
-                "rooms_no": 992244,
-                "bed": [
-                    {
-                        "size": "1 twin bed"
-                    }
-                ],
-                "sleep": 1
-            },
-            {
-                "name": "Super Deluxe Single Room",
-                "rooms_no": 992255,
-                "bed": [
-                    {
-                        "size": "1 full bed"
-                    }
-                ],
-                "sleep": 1
-            },
-            {
-                "name": "Aristocrat Deluxe Couple",
-                "rooms_no": 992266,
-                "bed": [
-                    {
-                        "size": "1 twin bed"
-                    }
-                ],
-                "sleep": 2,
-                "children" : 1
+        {
+            "name": "Deluxe Double Room",
+            "rooms_no": 332244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                },
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Double Room",
+            "rooms_no": 442244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Single Room",
+            "rooms_no": 552244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 single bed"
+                }
+            ],
+            "sleep": 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Standard Twin Room",
+            "rooms_no": 552255,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Standard Double Room",
+            "rooms_no": 552266,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Basic Triple Room",
+            "rooms_no": 552277,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 3,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Double Room",
+            "rooms_no": 552288,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "King Room with Garden View",
+            "rooms_no": 662244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Family Room with Balcony",
+            "rooms_no": 772244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                },
+                {
+                    "size": "1 large double bed"
+                }
+            ],
+            "sleep": 3,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Double Room with Balcony",
+            "rooms_no": 772255,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Twin Room",
+            "rooms_no": 772266,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Double Room with Balcony",
+            "rooms_no": 882244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "3 double beds"
+                }
+            ],
+            "sleep": 6,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Single Room",
+            "rooms_no": 992244,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 twin bed"
+                }
+            ],
+            "sleep": 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Super Deluxe Single Room",
+            "rooms_no": 992255,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 full bed"
+                }
+            ],
+            "sleep": 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Aristocrat Deluxe Couple",
+            "rooms_no": 992266,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 twin bed"
+                }
+            ],
+            "sleep": 2,
+            "children" : 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Aristocrat Deluxe Twin",
+            "rooms_no": 992277,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 twin beds"
+                }
+            ],
+            "sleep": 2,
+            "children" : 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Family Suite",
+            "rooms_no": 992288,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 king bed"
+                },
+                {
+                    "size": "1 bunk bed"
+                }
+            ],
+            "sleep": 3,
+            "children" : 2,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Aristocrat Suite",
+            "rooms_no": 992211,
+            "price":30,
+            "facilities": [
+                {"name": "free_WiFi"},
+                {"name": "free_parking"},
+                {"name": "Family rooms"},
+                {"name": "Room service"},
+                {"name": "Non-smoking rooms"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "city view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 queen bed"
+                }
+            ],
+            "sleep": 2,
+            "children" : 1,
+            "images": [
+                {
+                    "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
+                },
+                {
+                    "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        }
 
-            },
-            {
-                "name": "Aristocrat Deluxe Twin",
-                "rooms_no": 992277,
-                "bed": [
-                    {
-                        "size": "2 twin beds"
-                    }
-                ],
-                "sleep": 2,
-                "children" : 1
-            },
-            {
-                "name": "Family Suite",
-                "rooms_no": 992288,
-                "bed": [
-                    {
-                        "size": "1 king bed"
-                    },
-                    {
-                        "size": "1 bunk bed"
-                    }
-                ],
-                "sleep": 3,
-                "children" : 2
-            },
-            {
-                "name": "Aristocrat Suite",
-                "rooms_no": 992211,
-                "bed": [
-                    {
-                        "size": "1 queen bed"
-                    }
-                ],
-                "sleep": 2,
-                "children" : 1
-            }
-           
-            
-        ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 1442404,
-        "Promoted": ""
-    }
+     
+        
 ]

@@ -113,7 +113,7 @@ const DestinationCategory = mongoose.model('DestinationCategory', destinationCat
 
 
 
-
+ 
 //export Models
 exports.DestinationCategory = DestinationCategory
 exports.Destination = Destination

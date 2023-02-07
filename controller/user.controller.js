@@ -44,7 +44,7 @@ const userUpdate = async (req, res) => {
         const user = await User.updateMany(email, updates, { new: true });
         res.send(user);
     } catch (error) {
-        res.status(400).send(error);
+        res.status(400).send('error',error);
     }
 };
 
