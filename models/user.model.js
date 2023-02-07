@@ -41,12 +41,14 @@ const userSchema = new mongoose.Schema({
 
 
 //Seller Schema
-const sellerSchema = new mongoose.Schema({
+const organizerSchema = new mongoose.Schema({
     email: {
         type: String,
         unique: true,
         required: true
     },
+    __v: { type: Number, select: true },
+
     first_name: {
         type: String,
         // required: true
@@ -106,8 +108,8 @@ const sellerSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 //Seller Model
-const Seller = mongoose.model('Seller', sellerSchema);
+const Organizer = mongoose.model('Organizer', organizerSchema);
 
 //export Models
 exports.User = User
-exports.Seller = Seller
+exports.Organizer = Organizer

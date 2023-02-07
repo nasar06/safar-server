@@ -1,5 +1,5 @@
 const { Mongoose } = require("mongoose");
-const { User, Seller } = require("../models/user.model");
+const { User, Organizer } = require("../models/user.model");
 const { jwtSign } = require("../utilities/jwtToken");
 
 
@@ -36,11 +36,11 @@ const userUpdate = async (req, res) => {
 };
 
 
-// Seller post API
-const sellerInfo = async (req, res) => {
+// Organizer post API
+const organizerInfo = async (req, res) => {
     try {
-        const seller = await Seller.create(req.body);
-        res.send(seller);
+        const organizer = await Organizer.create(req.body);
+        res.send(organizer);
     }
     catch (err) {
         console.error(err);
@@ -49,11 +49,11 @@ const sellerInfo = async (req, res) => {
 };
 
 
-// all-seller get API
-const allSellers = async (req, res) => {
+// all-Organizer get API
+const allOrganizers = async (req, res) => {
     try{
-        const sellers = await Seller.find({});
-        res.send(sellers);
+        const organizers = await Organizer.find({});
+        res.send(organizers);
     }
     catch (err) {
         console.error(err);
@@ -62,12 +62,12 @@ const allSellers = async (req, res) => {
 }
 
 
-// Seller update API
-const sellerUpdate = async (req, res) => {
+// Organizer update API
+const organizerUpdate = async (req, res) => {
     try{
         const email = { email: req.query.email };
         const updateInfo = req.body;
-        const result = await Seller.updateMany(email, updateInfo);
+        const result = await Organizer.updateMany(email, updateInfo);
         res.send(result);
     }
     catch(err){
@@ -79,6 +79,6 @@ const sellerUpdate = async (req, res) => {
 exports.userInfo = userInfo;
 exports.usersProfile = usersProfile;
 exports.userUpdate = userUpdate;
-exports.sellerInfo = sellerInfo;
-exports.sellerUpdate = sellerUpdate;
-exports.allSellers = allSellers;
+exports.organizerInfo = organizerInfo;
+exports.allOrganizers = allOrganizers;
+exports.organizerUpdate = organizerUpdate;
