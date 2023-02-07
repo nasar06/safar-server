@@ -20,6 +20,19 @@ const usersProfile = async (req, res) => {
 
 };
 
+//get API single user
+const singleUser = async(req, res)=>{
+    console.log(req.query.email)
+    try{
+        const result =await User.findOne({email: req.query.email});
+        res.send(result);
+    }
+    catch(err){
+        console.log(err)
+        res.send(err)
+    }
+}
+
 
 //update API
 const userUpdate = async (req, res) => {
@@ -79,6 +92,7 @@ const sellerUpdate = async (req, res) => {
 exports.userInfo = userInfo;
 exports.usersProfile = usersProfile;
 exports.userUpdate = userUpdate;
+exports.singleUser = singleUser;
 exports.sellerInfo = sellerInfo;
 exports.sellerUpdate = sellerUpdate;
 exports.allSellers = allSellers;
