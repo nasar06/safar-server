@@ -43,7 +43,7 @@ const imagesSchema = new mongoose.Schema({
     url: {
         type: String
     },
-})
+});
 
 //Organizer Schema
 const organizerSchema = new mongoose.Schema({
@@ -104,12 +104,13 @@ const organizerSchema = new mongoose.Schema({
         // required: true
     },
 
+     hotel_img: [
+        imagesSchema
+    ],
+
    nid_img: {
         type: String
     },
-    hotel_img: [
-        imagesSchema
-    ],
     
     hotel_view: {
         type: String
