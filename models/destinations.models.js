@@ -3,6 +3,7 @@ const mongoose = require("mongoose")
 
 //--------- Create a new Mongoose schema -----------//
 //Destinations Schema
+//--
 const Room_typeSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -21,7 +22,7 @@ const Room_typeSchema = new mongoose.Schema({
     }]
 });
 
-
+//---
 const locationSchema = new mongoose.Schema({
     country: {
         type: String
@@ -36,18 +37,19 @@ const locationSchema = new mongoose.Schema({
         type: String
     }
 });
-
+//----
 const imagesSchema = new mongoose.Schema({
     url: {
         type: String
     },
 })
+//---
 const facilitiesSchema = new mongoose.Schema({
     name: {
         type: String
     },
 })
-
+//main
 const destinationSchema = new mongoose.Schema({
     hotel_name: {
         type: String,
@@ -89,6 +91,7 @@ const destinationSchema = new mongoose.Schema({
         type: String
     },
 });
+
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({
     city: {
@@ -102,13 +105,44 @@ const destinationCategoriesSchema = new mongoose.Schema({
     }
 });
 
-
+//room detail schema
+const roomDetailSchema =new mongoose.Schema(
+    {
+        name: {type: String},
+        rooms_no: {type: Number},
+        price:{type: Number},
+        extra_facilities: [
+            {name: {type: String}}
+        ],
+        room_facilities: [
+            {name: {type: String}}
+        ],
+        
+        view: {type: String},
+        bathroom:[
+            {name: {type: String}}
+        ],
+        bed: [
+            {
+                size: {type: String}
+            }
+        ],
+        sleep: {type: Number},
+        images: [
+            {
+                url: {type: String}
+            }
+        ]
+    },
+)
 
 //--------Create a Mongoose model from the schema-------//
 //Destinations Model
 const Destination = mongoose.model('Destination', destinationSchema);
 //destination Categories Model
 const DestinationCategory = mongoose.model('DestinationCategory', destinationCategoriesSchema);
+//Rooms  Model
+const Rooms = mongoose.model('Room', roomDetailSchema);
 
 
 
@@ -117,3 +151,4 @@ const DestinationCategory = mongoose.model('DestinationCategory', destinationCat
 //export Models
 exports.DestinationCategory = DestinationCategory
 exports.Destination = Destination
+exports.Rooms = Rooms
