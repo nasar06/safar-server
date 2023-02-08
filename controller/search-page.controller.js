@@ -22,5 +22,7 @@ const getDestinationPrice = async (req, res) => {
 }
 
 
+
+
 exports.getDestinationBySearch = getDestinationBySearch
 exports.getDestinationPrice = getDestinationPrice

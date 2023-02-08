@@ -1,4 +1,4 @@
-const { Destination, DestinationCategory } = require("../models/destinations.models");
+const { Destination, DestinationCategory, Rooms } = require("../models/destinations.models");
 
 //get all hotels
 const getAllDestination = async (req, res) => {
@@ -64,10 +64,22 @@ const postAllDestination =async (req, res) =>{
     }
 }
 
+const getSingleRoom = async (req, res)=>{
+    const room = req.params.room_id
+    try{
+            const result = await Rooms.findOne({rooms_no: room})
+            res.send(result)
+    }
+    catch(err){
+            console.log(err)
+            res.send(err)
+    }
+}
+
 
 exports.getAllDestination = getAllDestination;
 exports.hotelDetails = hotelDetails;
 exports.getDestinationCategories = getDestinationCategories;
 exports.getDestinationCategory = getDestinationCategory;
 exports.postAllDestination = postAllDestination;
-
+exports.getSingleRoom = getSingleRoom
