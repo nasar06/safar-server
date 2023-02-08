@@ -39,19 +39,24 @@ const userSchema = new mongoose.Schema({
     }
 });
 
+const imagesSchema = new mongoose.Schema({
+    url: {
+        type: String
+    },
+})
 
-//Seller Schema
+//Organizer Schema
 const organizerSchema = new mongoose.Schema({
     email: {
         type: String,
         unique: true,
         required: true
     },
+   
     role: {
         type: String,
         required: true
     },
-    __v: { type: Number, select: true },
 
     first_name: {
         type: String,
@@ -66,15 +71,15 @@ const organizerSchema = new mongoose.Schema({
         // required: true
     },
     mobile: {
-        type: Number,
+        type: String,
         unique: true,
     },
    nid_no: {
-        type: Number,
+        type: String,
         unique: true,
     },
    address: {
-        type: Number,
+        type: String,
         unique: true,
     },
     country: {
@@ -86,7 +91,7 @@ const organizerSchema = new mongoose.Schema({
         // required: true
     },
     zip_code: {
-        type: Number,
+        type: String,
         // required: true
     },
     hotel_name: {
@@ -102,10 +107,9 @@ const organizerSchema = new mongoose.Schema({
    nid_img: {
         type: String
     },
-    hotel_img: {
-        type: String,
-        // required: true
-    },
+    hotel_img: [
+        imagesSchema
+    ],
     
     hotel_view: {
         type: String

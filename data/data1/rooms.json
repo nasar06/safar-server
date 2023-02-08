@@ -3,7 +3,7 @@
             "name": "family_room-with_balcony",
             "rooms_no": 112244,
             "price":136,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -82,7 +82,7 @@
             "name": "deluxe_twin_room",
             "rooms_no": 112255,
             "price":136,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -158,7 +158,7 @@
             "name": "Double Room with Balcony",
             "rooms_no": 112266,
             "price":136,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -234,7 +234,7 @@
             "name": "Deluxe Double Room with Balcony",
             "rooms_no": 223344,
             "price":81,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -310,7 +310,7 @@
             "name": "Superior Twin Room",
             "rooms_no": 223355,
             "price":81,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -386,7 +386,7 @@
             "name": "Deluxe Double Room",
             "rooms_no": 223366,
             "price":81,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -462,7 +462,7 @@
             "name": "Suite",
             "rooms_no": 223377,
             "price":81,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -544,7 +544,7 @@
             "name": "Family Suite",
             "rooms_no": 223388,
             "price":81,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -624,7 +624,7 @@
             "name": "Deluxe Single Room",
             "rooms_no": 223399,
             "price":81,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -700,7 +700,7 @@
             "name": "Deluxe Double Room",
             "rooms_no": 332244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -779,7 +779,7 @@
             "name": "Double Room",
             "rooms_no": 442244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -855,7 +855,7 @@
             "name": "Single Room",
             "rooms_no": 552244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -931,7 +931,7 @@
             "name": "Standard Twin Room",
             "rooms_no": 552255,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1007,7 +1007,7 @@
             "name": "Standard Double Room",
             "rooms_no": 552266,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1083,7 +1083,7 @@
             "name": "Basic Triple Room",
             "rooms_no": 552277,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1159,7 +1159,7 @@
             "name": "Deluxe Double Room",
             "rooms_no": 552288,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1235,7 +1235,7 @@
             "name": "King Room with Garden View",
             "rooms_no": 662244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1311,7 +1311,7 @@
             "name": "Family Room with Balcony",
             "rooms_no": 772244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1390,7 +1390,7 @@
             "name": "Double Room with Balcony",
             "rooms_no": 772255,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1466,7 +1466,7 @@
             "name": "Deluxe Twin Room",
             "rooms_no": 772266,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1542,7 +1542,7 @@
             "name": "Double Room with Balcony",
             "rooms_no": 882244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1618,7 +1618,7 @@
             "name": "Deluxe Single Room",
             "rooms_no": 992244,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1694,7 +1694,7 @@
             "name": "Super Deluxe Single Room",
             "rooms_no": 992255,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1770,7 +1770,7 @@
             "name": "Aristocrat Deluxe Couple",
             "rooms_no": 992266,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1847,7 +1847,7 @@
             "name": "Aristocrat Deluxe Twin",
             "rooms_no": 992277,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -1924,7 +1924,7 @@
             "name": "Family Suite",
             "rooms_no": 992288,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
@@ -2004,7 +2004,7 @@
             "name": "Aristocrat Suite",
             "rooms_no": 992211,
             "price":30,
-            "facilities": [
+            "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
                 {"name": "Family rooms"},
