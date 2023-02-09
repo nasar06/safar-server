@@ -84,7 +84,7 @@ const destinationSchema = new mongoose.Schema({
     Contact: {
         type: String
     },
-    Hotel_id: {
+    hotel_id: {
         type: Number
     },
     Promoted: {

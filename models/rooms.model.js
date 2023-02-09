@@ -4,8 +4,12 @@ const mongoose = require("mongoose")
 const roomDetailSchema =new mongoose.Schema(
     {
         name: {type: String},
-        rooms_no: {type: Number},
+        rooms_no: {
+            type: Number,
+            unique: true
+        },
         price:{type: Number},
+        hotel_id: Number,
         extra_facilities: [
             {name: {type: String}}
         ],
