@@ -59,22 +59,32 @@ const destinationSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    location: locationSchema,
+    organizer_email: {
+        type: String
+    },
+    offer: {
+        type: String
+    },
+
+    location: [locationSchema],
     regular_price: {
         type: Number
     },
     offer_price: {
         type: Number
     },
-    Room_type: [
-        Room_typeSchema
-    ],
     images: [
         imagesSchema
     ],
     facilities: [
         facilitiesSchema
     ],
+    Room_type: [
+        Room_typeSchema
+    ],
+
+    
+    
     Yearly_deals: {
         type: Boolean
     },
