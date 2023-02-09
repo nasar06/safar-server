@@ -105,44 +105,13 @@ const destinationCategoriesSchema = new mongoose.Schema({
     }
 });
 
-//room detail schema
-const roomDetailSchema =new mongoose.Schema(
-    {
-        name: {type: String},
-        rooms_no: {type: Number},
-        price:{type: Number},
-        extra_facilities: [
-            {name: {type: String}}
-        ],
-        room_facilities: [
-            {name: {type: String}}
-        ],
-        
-        view: {type: String},
-        bathroom:[
-            {name: {type: String}}
-        ],
-        bed: [
-            {
-                size: {type: String}
-            }
-        ],
-        sleep: {type: Number},
-        images: [
-            {
-                url: {type: String}
-            }
-        ]
-    },
-)
 
 //--------Create a Mongoose model from the schema-------//
 //Destinations Model
 const Destination = mongoose.model('Destination', destinationSchema);
 //destination Categories Model
 const DestinationCategory = mongoose.model('DestinationCategory', destinationCategoriesSchema);
-//Rooms  Model
-const Rooms = mongoose.model('Room', roomDetailSchema);
+
 
 
 
@@ -151,4 +120,4 @@ const Rooms = mongoose.model('Room', roomDetailSchema);
 //export Models
 exports.DestinationCategory = DestinationCategory
 exports.Destination = Destination
-exports.Rooms = Rooms
+
