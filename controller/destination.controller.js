@@ -1,4 +1,5 @@
 const { Destination, DestinationCategory } = require("../models/destinations.models");
+const { Rooms } = require("../models/rooms.model");
 
 //get all hotels
 const getAllDestination = async (req, res) => {
@@ -13,7 +14,9 @@ const getAllDestination = async (req, res) => {
 //get single hotel details
 const hotelDetails = async (req, res) => {
     try {
-        const hotel = await Destination.findOne({ hotel_id: req.params.hotelId })
+        console.log(req.params.hotelId)
+        const id = req.params.hotelId
+        const hotel = await Destination.findOne({hotel_id: id })
         res.send(hotel)
     }
     catch (err) {

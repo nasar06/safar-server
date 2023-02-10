@@ -13,7 +13,7 @@ const roomDetailSchema =new mongoose.Schema(
         price:{
             type: Number
         },
-        hotel_id: Number,
+        hotel_id: String,
         extra_facilities: [
             {name: {type: String}}
         ],

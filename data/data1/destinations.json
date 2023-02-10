@@ -92,7 +92,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 9062086,
+        "hotel_id": "9062086",
         "promoted": ""
     },
     {
@@ -211,7 +211,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 4049735,
+        "hotel_id": "4049735",
         "promoted": ""
     },
     {
@@ -268,7 +268,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 408907,
+        "hotel_id": "408907",
         "promoted": ""
     },
     {
@@ -320,7 +320,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 9229219,
+        "hotel_id": "9229219",
         "promoted": ""
     },
     {
@@ -464,7 +464,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 3256856,
+        "hotel_id": "3256856",
         "promoted": ""
     },
     {
@@ -540,7 +540,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 1458555,
+        "hotel_id": "1458555",
         "promoted": ""
     },
     {
@@ -591,7 +591,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 9107586,
+        "hotel_id": "9107586",
         "promoted": ""
     },
     {
@@ -707,7 +707,7 @@
         "yearly_deals": false,
         "monthly_deals": false,
         "contact": "",
-        "hotel_id": 1442404,
+        "hotel_id": "1442404",
         "promoted": ""
     }
 ]
