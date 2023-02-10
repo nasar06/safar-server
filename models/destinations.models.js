@@ -3,13 +3,18 @@ const mongoose = require("mongoose")
 
 //--------- Create a new Mongoose schema -----------//
 //Destinations Schema
+//--
 const Room_typeSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true
     },
+    room_no: {
+        type: Number,
+        required: true
+    },
     sleep: {
-        type: String,
+        type: Number,
         required: true
     },
     price: {
@@ -21,7 +26,7 @@ const Room_typeSchema = new mongoose.Schema({
     }]
 });
 
-
+//---
 const locationSchema = new mongoose.Schema({
     country: {
         type: String
@@ -36,18 +41,19 @@ const locationSchema = new mongoose.Schema({
         type: String
     }
 });
-
+//----
 const imagesSchema = new mongoose.Schema({
     url: {
         type: String
     },
 })
+//---
 const facilitiesSchema = new mongoose.Schema({
     name: {
         type: String
     },
 })
-
+//main
 const destinationSchema = new mongoose.Schema({
     hotel_name: {
         type: String,
@@ -57,38 +63,46 @@ const destinationSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    location: locationSchema,
+    organizer_email: {
+        type: String
+    },
+    offer: {
+        type: String
+    },
+
+    location: [locationSchema],
     regular_price: {
         type: Number
     },
     offer_price: {
         type: Number
     },
-    Room_type: [
-        Room_typeSchema
-    ],
     images: [
         imagesSchema
     ],
     facilities: [
         facilitiesSchema
     ],
-    Yearly_deals: {
+    room_type: [
+        Room_typeSchema
+    ],
+    yearly_deals: {
         type: Boolean
     },
-    Monthly_deals: {
+    monthly_deals: {
         type: Boolean
     },
-    Contact: {
+    contact: {
         type: String
     },
-    Hotel_id: {
-        type: Number
+    hotel_id: {
+        type: String
     },
-    Promoted: {
+    promoted: {
         type: String
     },
 });
+
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({
     city: {
@@ -103,7 +117,6 @@ const destinationCategoriesSchema = new mongoose.Schema({
 });
 
 
-
 //--------Create a Mongoose model from the schema-------//
 //Destinations Model
 const Destination = mongoose.model('Destination', destinationSchema);
@@ -114,6 +127,8 @@ const DestinationCategory = mongoose.model('DestinationCategory', destinationCat
 
 
 
+ 
 //export Models
 exports.DestinationCategory = DestinationCategory
 exports.Destination = Destination
+
