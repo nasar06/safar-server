@@ -1,25 +1,17 @@
-[{ 
-    "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
-    "offer_price": 136,
-    "yearly_deals": "active",
-    "monthly_deals": "inactive",
-    "review": 4
-    
-   },
-   { 
-    "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
-    "offer_price": 136,
-    "yearly_deals": "active",
-    "monthly_deals": "inactive",
-    "review": 5
-    
-   },
-   { 
-    "hotel": "APPAYAN GUEST HOUSE BARIDHARA",
-    "offer_price": 136,
-    "yearly_deals": "active",
-    "monthly_deals": "inactive",
-    "review": 6
-    
-   }
-]
+
+{   
+  "first_name": "solimullah",
+  "last_name": "korimullah",
+  "img": "http://jhfdjf/fh",
+  "mobile": "054646444",
+  "nid_no": "246545324",
+  "address": "dhaka",
+  "country": "bangladesh",
+  "city":"aaaaaaaaaaaaaaaaaaa",
+  "zip_code": "465646",
+  "hotel_name": "Noorjahan hotel",
+  "hotel_location": "ch hdhfk",
+  "hotel_img": [{
+      "url": "hkshdfkjdfhkdfjhdkfj"
+    }]
+  }

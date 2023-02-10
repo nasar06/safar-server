@@ -9,8 +9,7 @@ const app = express()
 // --------Middleware---------//
 
 app.use(cors());
-app.use(express.json());
-
+app.use(express.json())
 
 //------------connect to the database with mongoose-------------//
 
@@ -27,6 +26,8 @@ const destinationRoute = require('./routes/destination.route')
 const usersRoute = require('./routes/user.route')
 const searchPageRoute = require('./routes/search-page.route')
 const jwtRoute = require('./routes/jwt.route')
+const subscribe = require('./routes/subscriber.router')
+const rooms = require('./routes/rooms.route')
 
 
 //-------router-------//
@@ -34,6 +35,8 @@ app.use('/destination', destinationRoute)
 app.use('/users', usersRoute)
 app.use('/search', searchPageRoute)
 app.use('/jwt', jwtRoute)
+app.use('/subscribe', subscribe)
+app.use('/rooms', rooms)
 
 
 //------Initial API-------//
@@ -46,7 +49,6 @@ app.get('/', (req, res) => {
 app.listen(port, ()=>{
     console.log('server is on')
 })
-
 
 
 
