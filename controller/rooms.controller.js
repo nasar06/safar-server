@@ -35,8 +35,22 @@ const getSingleRoom = async (req, res) => {
     }
 }
 
+//get my rooms
+const getMyRooms = async (req, res)=>{
+    try{
+        console.log(req.params.id)
+        const result =await Rooms.find({hotel_id: req.params.hotel_id})
+        res.send(result)
+    }
+    catch(err){
+        res.send(err)
+        console.log(err)
+    }
+}
+
 
 
 
 exports.postRoom = postRoom
 exports.getSingleRoom = getSingleRoom
+exports.getMyRooms = getMyRooms

@@ -9,8 +9,12 @@ const Room_typeSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    room_no: {
+        type: Number,
+        required: true
+    },
     sleep: {
-        type: String,
+        type: Number,
         required: true
     },
     price: {
@@ -79,25 +83,22 @@ const destinationSchema = new mongoose.Schema({
     facilities: [
         facilitiesSchema
     ],
-    Room_type: [
+    room_type: [
         Room_typeSchema
     ],
-
-    
-    
-    Yearly_deals: {
+    yearly_deals: {
         type: Boolean
     },
-    Monthly_deals: {
+    monthly_deals: {
         type: Boolean
     },
-    Contact: {
+    contact: {
         type: String
     },
     hotel_id: {
-        type: Number
+        type: String
     },
-    Promoted: {
+    promoted: {
         type: String
     },
 });

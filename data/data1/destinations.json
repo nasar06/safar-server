@@ -52,7 +52,7 @@
             {"name": "Non-smoking rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             {
                 "name": "family_room-with_balcony",
                 "rooms_no": 112244,
@@ -131,7 +131,7 @@
             {"name": "Non-smoking rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             {
                 "name": "Deluxe Double Room with Balcony",
                 "rooms_no": 223344,
@@ -246,7 +246,7 @@
             {"name": "Free parking"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Deluxe Double Room",
@@ -302,7 +302,7 @@
             {"name": "Room service"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Double Room",
@@ -355,7 +355,7 @@
             {"name": "Family rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Single Room",
@@ -446,7 +446,7 @@
             {"name": "Family rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "King Room with Garden View",
@@ -499,7 +499,7 @@
             {"name": "Free parking"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Family Room with Balcony",
@@ -573,7 +573,7 @@
             {"name": "Free parking"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Double Room with Balcony",
@@ -631,7 +631,7 @@
             {"name": "Fitness center"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Deluxe Single Room",

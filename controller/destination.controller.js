@@ -13,7 +13,7 @@ const getAllDestination = async (req, res) => {
 //get single hotel details
 const hotelDetails = async (req, res) => {
     try {
-        const hotel = await Destination.findOne({ Hotel_id: req.params.hotelId })
+        const hotel = await Destination.findOne({ hotel_id: req.params.hotelId })
         res.send(hotel)
     }
     catch (err) {
