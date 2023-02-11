@@ -24,6 +24,18 @@ const hotelDetails = async (req, res) => {
         res.send(err)
     }
 }
+//get single hotel details By Email[sellerProfile]
+const hotelDetailsByEmail = async (req, res) => {
+    try {
+        const email =req.query.email
+        const hotel = await Destination.findOne({organizer_email: email })
+        res.send(hotel)
+    }
+    catch (err) {
+        console.log(err)
+        res.send(err)
+    }
+}
 
 //get all catagories
 const getDestinationCategories = async (req, res) => {
@@ -74,4 +86,5 @@ exports.hotelDetails = hotelDetails;
 exports.getDestinationCategories = getDestinationCategories;
 exports.getDestinationCategory = getDestinationCategory;
 exports.postAllDestination = postAllDestination;
+exports.hotelDetailsByEmail = hotelDetailsByEmail;
 
