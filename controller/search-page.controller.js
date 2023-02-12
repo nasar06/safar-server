@@ -1,8 +1,17 @@
 const { Destination } = require("../models/destinations.models")
 
 const getDestinationBySearch = async (req, res) => {
-        const result = await Destination.find({ "location.city": req.query.location.toUpperCase() })
-        res.send(result)
+        // const result = await Destination.find({ "location.city": req.query.location.toUpperCase() })
+        // res.send(result)
+        const searchTerm = req.query.location.toUpperCase()
+        Destination.find({ "location.city": { $regex: new RegExp(searchTerm, 'i') } }, function(error, results) {
+                if (error) {
+                  console.error(error);
+                  res.sendStatus(500);
+                } else {
+                  res.send(results);
+                }
+              });
 }
 
 const getDestinationPrice = async (req, res) => {
