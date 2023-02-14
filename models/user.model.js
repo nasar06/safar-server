@@ -137,6 +137,11 @@ const guideSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
+    phone: {
+        type: Number,
+        required: true,
+        unique: true
+    },
     name: {
         type: String,
         required: true
@@ -144,11 +149,6 @@ const guideSchema = new mongoose.Schema({
    photo: {
         type: String,
         required: true
-    },
-    phone: {
-        type: String,
-        required: true,
-        unique: true
     },
     address: {
         type: String,

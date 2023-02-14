@@ -1,6 +1,6 @@
 const express = require("express");
 const { verifyJwt } = require("../utilities/jwtToken");
-const { userInfo, usersProfile,singleUser, userUpdate, organizerInfo, organizerUpdate, allOrganizers, guideInfo, allGuides } = require("../controller/user.controller");
+const { userInfo, usersProfile,singleUser, userUpdate, organizerInfo, organizerUpdate, allOrganizers, guideInfo, allGuides, guideUpdate } = require("../controller/user.controller");
 const router = express.Router();
 
 
@@ -16,5 +16,6 @@ router.get('/all-organizers', allOrganizers);
 
 router.post('/guide', guideInfo);
 router.get('/all-guides', allGuides);
+router.put('/update-guide', guideUpdate);
 
 module.exports = router;

@@ -113,6 +113,22 @@ const allGuides = async (req, res) => {
         console.error(err);
         res.status(400).send(err);
     }
+};
+
+
+// Guide Update API
+const guideUpdate = async (req, res) => {
+    try{
+        const email = {email: req?.query.email};
+        const updateData = req?.body;
+
+        const result = await Guide.updateMany(email, updateData);
+        res.send(result);
+    }
+    catch(err){
+        console.error(err);
+        res.status(400).send(err);
+    }
 }
 
 exports.userInfo = userInfo;
@@ -126,3 +142,4 @@ exports.allOrganizers = allOrganizers;
 
 exports.guideInfo = guideInfo;
 exports.allGuides = allGuides;
+exports.guideUpdate = guideUpdate;
