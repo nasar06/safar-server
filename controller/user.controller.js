@@ -100,13 +100,29 @@ const guideInfo = async (req, res) => {
         console.error(err);
         res.status(400).send(err);
     }
+};
+
+
+// get all guides API
+const allGuides = async (req, res) => {
+    try{
+        const guides = await Guide.find({});
+        res.send(guides);
+    }
+    catch(err){
+        console.error(err);
+        res.status(400).send(err);
+    }
 }
 
 exports.userInfo = userInfo;
 exports.usersProfile = usersProfile;
 exports.userUpdate = userUpdate;
 exports.singleUser = singleUser;
+
 exports.organizerInfo = organizerInfo;
 exports.organizerUpdate = organizerUpdate;
 exports.allOrganizers = allOrganizers;
+
 exports.guideInfo = guideInfo;
+exports.allGuides = allGuides;

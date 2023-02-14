@@ -137,6 +137,27 @@ const guideSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
+    name: {
+        type: String,
+        required: true
+    },
+   photo: {
+        type: String,
+        required: true
+    },
+    phone: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    address: {
+        type: String,
+        required: true
+    },
+    location: {
+        type: String,
+        required: true
+    },
     role: {
         type: String,
         required: true
