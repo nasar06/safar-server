@@ -7,8 +7,8 @@ const mongoose = require("mongoose")
 const userSchema = new mongoose.Schema({
     email: {
         type: String,
-        unique: true,
-        required: true
+        required: true,
+        unique: true
     },
     name: {
         type: String
@@ -49,14 +49,14 @@ const imagesSchema = new mongoose.Schema({
     url: {
         type: String
     },
-})
+});
 
 //Organizer Schema
 const organizerSchema = new mongoose.Schema({
     email: {
         type: String,
+        required: true,
         unique: true,
-        required: true
     },
    
     role: {
@@ -115,17 +115,53 @@ const organizerSchema = new mongoose.Schema({
         // required: true
     },
 
+     hotel_img: [
+        imagesSchema
+    ],
+
    nid_img: {
         type: String
     },
-    hotel_img: [
-        imagesSchema
-    ],
     
     hotel_view: {
         type: String
     },
     
+});
+
+
+// Guide Schema
+const guideSchema = new mongoose.Schema({
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    phone: {
+        type: Number,
+        required: true,
+        unique: true
+    },
+    name: {
+        type: String,
+        required: true
+    },
+   photo: {
+        type: String,
+        required: true
+    },
+    address: {
+        type: String,
+        required: true
+    },
+    location: {
+        type: String,
+        required: true
+    },
+    role: {
+        type: String,
+        required: true
+    }
 });
 
 //create model
@@ -136,6 +172,10 @@ const User = mongoose.model('User', userSchema);
 //Organizer Model
 const Organizer = mongoose.model('Organizer', organizerSchema);
 
+// Guide Model
+const Guide = mongoose.model('Guide', guideSchema);
+
 //export Models
 exports.User = User
 exports.Organizer = Organizer
+exports.Guide = Guide

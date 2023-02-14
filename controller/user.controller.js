@@ -1,5 +1,5 @@
 const { Mongoose } = require("mongoose");
-const { User, Organizer } = require("../models/user.model");
+const { User, Organizer, Guide } = require("../models/user.model");
 const { jwtSign } = require("../utilities/jwtToken");
 
 
@@ -89,10 +89,57 @@ const organizerUpdate = async (req, res) => {
     }
 };
 
+
+// Guide post API
+const guideInfo = async (req, res) => {
+    try{
+        const guide = await Guide.create(req?.body);
+        res.send(guide);
+    }
+    catch(err){
+        console.error(err);
+        res.status(400).send(err);
+    }
+};
+
+
+// get all guides API
+const allGuides = async (req, res) => {
+    try{
+        const guides = await Guide.find({});
+        res.send(guides);
+    }
+    catch(err){
+        console.error(err);
+        res.status(400).send(err);
+    }
+};
+
+
+// Guide Update API
+const guideUpdate = async (req, res) => {
+    try{
+        const email = {email: req?.query.email};
+        const updateData = req?.body;
+
+        const result = await Guide.updateMany(email, updateData);
+        res.send(result);
+    }
+    catch(err){
+        console.error(err);
+        res.status(400).send(err);
+    }
+}
+
 exports.userInfo = userInfo;
 exports.usersProfile = usersProfile;
 exports.userUpdate = userUpdate;
 exports.singleUser = singleUser;
+
 exports.organizerInfo = organizerInfo;
 exports.organizerUpdate = organizerUpdate;
 exports.allOrganizers = allOrganizers;
+
+exports.guideInfo = guideInfo;
+exports.allGuides = allGuides;
+exports.guideUpdate = guideUpdate;
