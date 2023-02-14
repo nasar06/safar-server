@@ -2,6 +2,7 @@
         {
             "name": "family_room-with_balcony",
             "rooms_no": 112244,
+            "hotel_id": "9062086",
             "price":136,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -81,6 +82,7 @@
         {
             "name": "deluxe_twin_room",
             "rooms_no": 112255,
+            "hotel_id": "9062086",
             "price":136,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -157,6 +159,7 @@
         {
             "name": "Double Room with Balcony",
             "rooms_no": 112266,
+            "hotel_id": "9062086",
             "price":136,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -233,6 +236,7 @@
         {
             "name": "Deluxe Double Room with Balcony",
             "rooms_no": 223344,
+            "hotel_id": "4049735",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -309,6 +313,7 @@
         {
             "name": "Superior Twin Room",
             "rooms_no": 223355,
+            "hotel_id": "4049735",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -385,6 +390,7 @@
         {
             "name": "Deluxe Double Room",
             "rooms_no": 223366,
+            "hotel_id": "4049735",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -461,6 +467,7 @@
         {
             "name": "Suite",
             "rooms_no": 223377,
+            "hotel_id": "4049735",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -543,6 +550,7 @@
         {
             "name": "Family Suite",
             "rooms_no": 223388,
+            "hotel_id": "4049735",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -623,6 +631,7 @@
         {
             "name": "Deluxe Single Room",
             "rooms_no": 223399,
+            "hotel_id": "4049735",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -699,6 +708,7 @@
         {
             "name": "Deluxe Double Room",
             "rooms_no": 332244,
+            "hotel_id": "408907",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -778,6 +788,7 @@
         {
             "name": "Double Room",
             "rooms_no": 442244,
+            "hotel_id": "9229219",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -854,6 +865,7 @@
         {
             "name": "Single Room",
             "rooms_no": 552244,
+            "hotel_id": "8196212",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -930,6 +942,7 @@
         {
             "name": "Standard Twin Room",
             "rooms_no": 552255,
+            "hotel_id": "8196212",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1006,6 +1019,7 @@
         {
             "name": "Standard Double Room",
             "rooms_no": 552266,
+            "hotel_id": "8196212",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1082,6 +1096,7 @@
         {
             "name": "Basic Triple Room",
             "rooms_no": 552277,
+            "hotel_id": "8196212",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1158,6 +1173,7 @@
         {
             "name": "Deluxe Double Room",
             "rooms_no": 552288,
+            "hotel_id": "8196212",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1234,6 +1250,7 @@
         {
             "name": "King Room with Garden View",
             "rooms_no": 662244,
+            "hotel_id": "3256856",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1310,6 +1327,7 @@
         {
             "name": "Family Room with Balcony",
             "rooms_no": 772244,
+            "hotel_id": "1458555",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1389,6 +1407,7 @@
         {
             "name": "Double Room with Balcony",
             "rooms_no": 772255,
+            "hotel_id": "1458555",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1465,6 +1484,7 @@
         {
             "name": "Deluxe Twin Room",
             "rooms_no": 772266,
+            "hotel_id": "1458555",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1541,6 +1561,7 @@
         {
             "name": "Double Room with Balcony",
             "rooms_no": 882244,
+            "hotel_id": "9107586",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1617,6 +1638,7 @@
         {
             "name": "Deluxe Single Room",
             "rooms_no": 992244,
+            "hotel_id": "1442404",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1693,6 +1715,7 @@
         {
             "name": "Super Deluxe Single Room",
             "rooms_no": 992255,
+            "hotel_id": "1442404",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1769,6 +1792,7 @@
         {
             "name": "Aristocrat Deluxe Couple",
             "rooms_no": 992266,
+            "hotel_id": "1442404",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1846,6 +1870,7 @@
         {
             "name": "Aristocrat Deluxe Twin",
             "rooms_no": 992277,
+            "hotel_id": "1442404",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1923,6 +1948,7 @@
         {
             "name": "Family Suite",
             "rooms_no": 992288,
+            "hotel_id": "1442404",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -2003,6 +2029,7 @@
         {
             "name": "Aristocrat Suite",
             "rooms_no": 992211,
+            "hotel_id": "1442404",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -2077,7 +2104,4 @@
                 }
             ]
         }
-
-     
-        
 ]

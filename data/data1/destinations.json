@@ -52,7 +52,7 @@
             {"name": "Non-smoking rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             {
                 "name": "family_room-with_balcony",
                 "rooms_no": 112244,
@@ -89,11 +89,11 @@
                 "sleep": 2
             }
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 9062086,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "9062086",
+        "promoted": ""
     },
     {
         "hotel_name": "Hotel Grand Park Barishal",
@@ -131,7 +131,7 @@
             {"name": "Non-smoking rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             {
                 "name": "Deluxe Double Room with Balcony",
                 "rooms_no": 223344,
@@ -208,11 +208,11 @@
                 "sleep": 1
             }
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 4049735,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "4049735",
+        "promoted": ""
     },
     {
         "hotel_name": "Asian SR Hotel",
@@ -246,7 +246,7 @@
             {"name": "Free parking"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Deluxe Double Room",
@@ -265,11 +265,11 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 408907,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "408907",
+        "promoted": ""
     },
     {
         "hotel_name": "Jatra Flagship Khulna City Centre",
@@ -302,7 +302,7 @@
             {"name": "Room service"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Double Room",
@@ -317,11 +317,11 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 9229219,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "9229219",
+        "promoted": ""
     },
     {
         "hotel_name": "Hotel Bonolota international",
@@ -355,7 +355,7 @@
             {"name": "Family rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Single Room",
@@ -410,11 +410,11 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 8196212,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": 8196212,
+        "promoted": ""
     },
     {
         "hotel_name": "Jatra Flagship Khulna City Centre",
@@ -446,7 +446,7 @@
             {"name": "Family rooms"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "King Room with Garden View",
@@ -461,11 +461,11 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 3256856,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "3256856",
+        "promoted": ""
     },
     {
         "hotel_name": "APPAYAN GUEST HOUSE BARIDHARA",
@@ -499,7 +499,7 @@
             {"name": "Free parking"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Family Room with Balcony",
@@ -537,11 +537,11 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 10000000,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "1458555",
+        "promoted": ""
     },
     {
         "hotel_name": "ABAB MONJIL",
@@ -573,7 +573,7 @@
             {"name": "Free parking"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Double Room with Balcony",
@@ -588,11 +588,11 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 9107586,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "9107586",
+        "promoted": ""
     },
     {
         "hotel_name": "Aristocrat Inn",
@@ -631,7 +631,7 @@
             {"name": "Fitness center"}
             
         ],
-        "Room_type": [
+        "room_type": [
             
             {
                 "name": "Deluxe Single Room",
@@ -704,10 +704,10 @@
            
             
         ],
-        "Yearly_deals": false,
-        "Monthly_deals": false,
-        "Contact": "",
-        "Hotel_id": 1442404,
-        "Promoted": ""
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "",
+        "hotel_id": "1442404",
+        "promoted": ""
     }
 ]

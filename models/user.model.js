@@ -36,6 +36,12 @@ const userSchema = new mongoose.Schema({
     },
     img: {
         type: String
+    },
+    language: {
+        type: String
+    },
+    profile_img: {
+        type: String
     }
 });
 
@@ -57,22 +63,31 @@ const organizerSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-
-    first_name: {
+//------update
+    full_name: {
         type: String,
         // required: true
     },
-    last_name: {
+    contact: {
         type: String,
+        unique: true,
+    },
+    bank_account: {
+        type: String,
+        unique: true,
+    },
+    hotel_id: {
+        type: String,
+        unique: true,
+    },
+    hotel_name: {
+        type: String,
+        unique: true,
         // required: true
     },
     img: {
         type: String,
         // required: true
-    },
-    mobile: {
-        type: String,
-        unique: true,
     },
    nid_no: {
         type: String,
@@ -94,11 +109,7 @@ const organizerSchema = new mongoose.Schema({
         type: String,
         // required: true
     },
-    hotel_name: {
-        type: String,
-        unique: true,
-        // required: true
-    },
+    
     hotel_location: {
         type: String,
         // required: true

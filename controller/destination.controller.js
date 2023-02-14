@@ -1,4 +1,5 @@
-const { Destination, DestinationCategory, Rooms } = require("../models/destinations.models");
+const { Destination, DestinationCategory } = require("../models/destinations.models");
+const { Rooms } = require("../models/rooms.model");
 
 //get all hotels
 const getAllDestination = async (req, res) => {
@@ -13,7 +14,21 @@ const getAllDestination = async (req, res) => {
 //get single hotel details
 const hotelDetails = async (req, res) => {
     try {
-        const hotel = await Destination.findOne({ Hotel_id: req.params.hotelId })
+        console.log(req.params.hotelId)
+        const id = req.params.hotelId
+        const hotel = await Destination.findOne({hotel_id: id })
+        res.send(hotel)
+    }
+    catch (err) {
+        console.log(err)
+        res.send(err)
+    }
+}
+//get single hotel details By Email[sellerProfile]
+const hotelDetailsByEmail = async (req, res) => {
+    try {
+        const email =req.query.email
+        const hotel = await Destination.findOne({organizer_email: email })
         res.send(hotel)
     }
     catch (err) {
@@ -64,17 +79,6 @@ const postAllDestination =async (req, res) =>{
     }
 }
 
-const getSingleRoom = async (req, res)=>{
-    const room = req.params.room_id
-    try{
-            const result = await Rooms.findOne({rooms_no: room})
-            res.send(result)
-    }
-    catch(err){
-            console.log(err)
-            res.send(err)
-    }
-}
 
 
 exports.getAllDestination = getAllDestination;
@@ -82,4 +86,5 @@ exports.hotelDetails = hotelDetails;
 exports.getDestinationCategories = getDestinationCategories;
 exports.getDestinationCategory = getDestinationCategory;
 exports.postAllDestination = postAllDestination;
-exports.getSingleRoom = getSingleRoom
+exports.hotelDetailsByEmail = hotelDetailsByEmail;
+
