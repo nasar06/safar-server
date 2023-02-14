@@ -49,9 +49,30 @@ const ordersSchema = new mongoose.Schema({
     payment: {
         type: Boolean
     },
+    status: {
+        type: String,
+        enum: ['pending', 'fulfilled', 'cancelled'],
+        default: 'pending'
+      }
+    //   product: {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'Product',
+    //     required: true
+    //   },
    
-})
+}, { timestamps: true });
+
+const notificationSchema = new mongoose.Schema({
+    message: {
+      type: String,
+      required: true
+    }
+  }, { timestamps: true }); 
+
+
 
 const Order = mongoose.model('Order', ordersSchema)
+const Notification = mongoose.model('Notification', notificationSchema);
 
 exports.Order = Order
+exports.Notification = Notification
