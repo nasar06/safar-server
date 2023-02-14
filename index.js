@@ -28,6 +28,7 @@ const searchPageRoute = require('./routes/search-page.route')
 const jwtRoute = require('./routes/jwt.route')
 const subscribe = require('./routes/subscriber.router')
 const rooms = require('./routes/rooms.route')
+const orders = require('./routes/orders.route')
 
 
 //-------router-------//
@@ -37,6 +38,7 @@ app.use('/search', searchPageRoute)
 app.use('/jwt', jwtRoute)
 app.use('/subscribe', subscribe)
 app.use('/rooms', rooms)
+app.use('/orders', orders)
 
 
 //------Initial API-------//

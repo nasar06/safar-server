@@ -36,6 +36,12 @@ const userSchema = new mongoose.Schema({
     },
     img: {
         type: String
+    },
+    language: {
+        type: String
+    },
+    profile_img: {
+        type: String
     }
 });
 
