@@ -13,36 +13,18 @@
         "regular_price": 143,
         "offer_price": 136,
         "images": [
-            {
-                "url": "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg"
-            },
-            {
-                "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
-            }
+            
+                 "https://i.ibb.co/WPyjcDc/hotel-sarina-dhaka.jpg",
+                 "https://i.ibb.co/wMCFZp7/hotel-sarina-dhaka-1.jpg",
+                 "https://i.ibb.co/8gxdRYh/hotel-sarina-dhaka-2.jpg",
+                 "https://i.ibb.co/ypFqwYG/hotel-sarina-dhaka-3.jpg",
+                 "https://i.ibb.co/QXdsTNx/hotel-sarina-dhaka-4.jpg",
+                 "https://i.ibb.co/pyr6cPm/hotel-sarina-dhaka-5.jpg",
+                 "https://i.ibb.co/258KKkB/hotel-sarina-dhaka-6.jpg",
+                 "https://i.ibb.co/VNKJj07/hotel-sarina-dhaka-7.jpg",
+                 "https://i.ibb.co/q9vdTpR/hotel-sarina-dhaka-8.jpg",
+                 "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+           
         ],
         "facilities": [
             {"name": "free_WiFi"},

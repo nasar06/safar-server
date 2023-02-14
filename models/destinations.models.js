@@ -53,6 +53,12 @@ const facilitiesSchema = new mongoose.Schema({
         type: String
     },
 })
+const img = new mongoose.Schema({ 
+    type: String
+})
+
+
+
 //main
 const destinationSchema = new mongoose.Schema({
     hotel_name: {
@@ -77,9 +83,14 @@ const destinationSchema = new mongoose.Schema({
     offer_price: {
         type: Number
     },
-    images: [
-        imagesSchema
-    ],
+    images: {
+        type: [{
+          type: String,
+          unique: true
+        }],
+        required: true
+      },
+
     facilities: [
         facilitiesSchema
     ],
@@ -101,7 +112,7 @@ const destinationSchema = new mongoose.Schema({
     promoted: {
         type: String
     },
-});
+})
 
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({
