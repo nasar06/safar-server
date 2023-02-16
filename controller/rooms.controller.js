@@ -50,9 +50,10 @@ const getMyRooms = async (req, res)=>{
 
 // update status
 const updateStatus = async (req, res)=>{
-    Rooms.updateOne({ rooms_id: req.params.room }, { $set: { status: 'deactivate' } }, function(err, data) {
+    console.log(req.params.room)
+    Rooms.updateOne({ rooms_no: req.params.room }, { $set: { status: 'deactivate' } }, function(err, data) {
         if (err) {
-          console.error(data);
+          console.error(err);
         } else {
             res.send({acknowledge: true})
           console.log(data);
@@ -62,14 +63,33 @@ const updateStatus = async (req, res)=>{
 
 //get deactivate rooms
 const deactivateRooms = async (req, res)=>{
-    try{
-        const result = await Rooms.find({status: "deactivate"})
-        res.send(result)
-    }
-    catch(err){
-        // res.send('err',err)
-        console.log(err)
-    }
+    Rooms.find({
+        $and: [
+            { status: 'deactivate' }, // find documents where the name property is 'John'
+            { hotel_id: req.params.hotel_id} // find documents where the age property is greater than 18
+        ]
+      }, function(err, doc) {
+        if (err) {
+          console.log(err);
+        } else {
+            res.send(doc)
+          console.log(doc);
+        }
+      });
+}
+
+// delete room
+const deleteRoom = async (req, res)=>{
+    
+        Rooms.deleteOne({ rooms_no: req.params.room_no }, function(err) {
+            if (err) {
+              console.log(err);
+            } else {
+                res.send({acknowledge: true})
+              console.log('Successfully deleted the document');
+            }
+          });
+   
 }
 
 
@@ -79,3 +99,4 @@ exports.getSingleRoom = getSingleRoom
 exports.getMyRooms = getMyRooms
 exports.updateStatus = updateStatus
 exports.deactivateRooms = deactivateRooms
+exports.deleteRoom = deleteRoom
