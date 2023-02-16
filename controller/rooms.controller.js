@@ -49,8 +49,21 @@ const getMyRooms = async (req, res)=>{
 }
 
 
+// update status
+const updateStatus = async (req, res)=>{
+    Rooms.updateOne({ rooms_id: req.params.room }, { $set: { status: 'deactivate' } }, function(err, data) {
+        if (err) {
+          console.error(data);
+        } else {
+            res.send({acknowledge: true})
+          console.log(data);
+        }
+      });
+}
+
 
 
 exports.postRoom = postRoom
 exports.getSingleRoom = getSingleRoom
 exports.getMyRooms = getMyRooms
+exports.updateStatus = updateStatus

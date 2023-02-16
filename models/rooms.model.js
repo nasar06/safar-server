@@ -10,6 +10,9 @@ const roomDetailSchema =new mongoose.Schema(
             type: Number,
             unique: true
         },
+        status: {
+            type: String,
+        },
         price:{
             type: Number
         },

@@ -85,10 +85,8 @@ const destinationSchema = new mongoose.Schema({
     },
     images: {
         type: [{
-          type: String,
-          unique: true
-        }],
-        required: true
+          type: String
+        }]
       },
 
     facilities: [
