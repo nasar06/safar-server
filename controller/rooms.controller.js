@@ -38,7 +38,6 @@ const getSingleRoom = async (req, res) => {
 //get my rooms
 const getMyRooms = async (req, res)=>{
     try{
-        console.log(req.params.id)
         const result =await Rooms.find({hotel_id: req.params.hotel_id})
         res.send(result)
     }
@@ -61,9 +60,22 @@ const updateStatus = async (req, res)=>{
       });
 }
 
+//get deactivate rooms
+const deactivateRooms = async (req, res)=>{
+    try{
+        const result = await Rooms.find({status: "deactivate"})
+        res.send(result)
+    }
+    catch(err){
+        // res.send('err',err)
+        console.log(err)
+    }
+}
+
 
 
 exports.postRoom = postRoom
 exports.getSingleRoom = getSingleRoom
 exports.getMyRooms = getMyRooms
 exports.updateStatus = updateStatus
+exports.deactivateRooms = deactivateRooms
