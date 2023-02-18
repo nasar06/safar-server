@@ -5,14 +5,12 @@ const mongoose = require("mongoose")
 const port = process.env.PORT || 5000
 const app = express()
 
-
 // --------Middleware---------//
-
 app.use(cors());
 app.use(express.json())
 
-//------------connect to the database with mongoose-------------//
 
+//------------connect to the database with mongoose-------------//
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@safar01.nospyhn.mongodb.net/safar`;
 mongoose.connect(uri, {
     useNewUrlParser: true,
@@ -21,13 +19,15 @@ mongoose.connect(uri, {
 
 
 
-
+//all route page
 const destinationRoute = require('./routes/destination.route')
 const usersRoute = require('./routes/user.route')
 const searchPageRoute = require('./routes/search-page.route')
 const jwtRoute = require('./routes/jwt.route')
 const subscribe = require('./routes/subscriber.router')
 const rooms = require('./routes/rooms.route')
+const orders = require('./routes/orders.route')
+const payment = require('./routes/payment.route')
 
 
 //-------router-------//
@@ -37,6 +37,8 @@ app.use('/search', searchPageRoute)
 app.use('/jwt', jwtRoute)
 app.use('/subscribe', subscribe)
 app.use('/rooms', rooms)
+app.use('/orders', orders)
+app.use('/payment', payment)
 
 
 //------Initial API-------//

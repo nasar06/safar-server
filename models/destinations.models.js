@@ -9,7 +9,7 @@ const Room_typeSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    room_no: {
+    rooms_no: {
         type: Number,
         required: true
     },
@@ -53,11 +53,16 @@ const facilitiesSchema = new mongoose.Schema({
         type: String
     },
 })
+const img = new mongoose.Schema({ 
+    type: String
+})
+
+
+
 //main
 const destinationSchema = new mongoose.Schema({
     hotel_name: {
         type: String,
-        required: true
     },
     description: {
         type: String,
@@ -67,19 +72,12 @@ const destinationSchema = new mongoose.Schema({
         type: String
     },
     offer: {
-        type: String
+        type: Boolean
     },
 
     location: [locationSchema],
-    regular_price: {
-        type: Number
-    },
-    offer_price: {
-        type: Number
-    },
-    images: [
-        imagesSchema
-    ],
+    images: [{type: String}],
+
     facilities: [
         facilitiesSchema
     ],
@@ -101,7 +99,10 @@ const destinationSchema = new mongoose.Schema({
     promoted: {
         type: String
     },
-});
+    profile_img: {
+        type: String
+    },
+})
 
 //destination Categories schema
 const destinationCategoriesSchema = new mongoose.Schema({
