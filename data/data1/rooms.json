@@ -2,9 +2,9 @@
         {
             "name": "family_room-with_balcony",
             "rooms_no": 112244,
-            "status": "active",
-            "hotel_id": "9062086",
-            "price":130,
+            "status": "deactivate",
+            "hotel_id": "GLSCaLZ9ElUkns1Hj6iAq5eDFyi2",
+            "price":135,
             "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
@@ -84,7 +84,7 @@
             "name": "deluxe_twin_room",
             "rooms_no": 112255,
             "status": "active",
-            "hotel_id": "9062086",
+            "hotel_id": "GLSCaLZ9ElUkns1Hj6iAq5eDFyi2",
             "price":150,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -162,7 +162,7 @@
             "name": "Double Room with Balcony",
             "rooms_no": 112266,
             "status": "active",
-            "hotel_id": "9062086",
+            "hotel_id": "GLSCaLZ9ElUkns1Hj6iAq5eDFyi2",
             "price":200,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -240,8 +240,8 @@
             "name": "Deluxe Double Room with Balcony",
             "rooms_no": 223344,
             "status": "active",
-            "hotel_id": "4049735",
-            "price":81,
+            "hotel_id": "sqffRqUAHqdqc3OtiBkeYCaGH463",
+            "price":125,
             "extra_facilities": [
                 {"name": "free_WiFi"},
                 {"name": "free_parking"},
@@ -318,7 +318,7 @@
             "name": "Superior Twin Room",
             "rooms_no": 223355,
             "status": "active",
-            "hotel_id": "4049735",
+            "hotel_id": "sqffRqUAHqdqc3OtiBkeYCaGH463",
             "price":70,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -396,7 +396,7 @@
             "name": "Deluxe Double Room",
             "rooms_no": 223366,
             "status": "active",
-            "hotel_id": "4049735",
+            "hotel_id": "sqffRqUAHqdqc3OtiBkeYCaGH463",
             "price":81,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -474,7 +474,7 @@
             "name": "Suite",
             "rooms_no": 223377,
             "status": "active",
-            "hotel_id": "4049735",
+            "hotel_id": "sqffRqUAHqdqc3OtiBkeYCaGH463",
             "price":150,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -558,7 +558,7 @@
             "name": "Family Suite",
             "rooms_no": 223388,
             "status": "active",
-            "hotel_id": "4049735",
+            "hotel_id": "sqffRqUAHqdqc3OtiBkeYCaGH463",
             "price":87,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -640,7 +640,7 @@
             "name": "Deluxe Single Room",
             "rooms_no": 223399,
             "status": "active",
-            "hotel_id": "4049735",
+            "hotel_id": "sqffRqUAHqdqc3OtiBkeYCaGH463",
             "price":130,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -718,7 +718,7 @@
             "name": "Deluxe Double Room",
             "rooms_no": 332244,
             "status": "active",
-            "hotel_id": "408907",
+            "hotel_id": "LHcbQHpOxBbnETy1k6dnQ6qPgeH2",
             "price":30,
             "extra_facilities": [
                 {"name": "free_WiFi"},

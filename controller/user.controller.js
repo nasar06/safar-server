@@ -89,6 +89,19 @@ const organizerUpdate = async (req, res) => {
     }
 };
 
+//get single Organizer
+const getSingleOrganizer = async(req, res) =>{
+    try{
+        console.log(req.query.email)
+        const result =await Organizer.findOne({email: req.query.email})
+        res.send(result)
+    }
+    catch(err){
+        console.log(err)
+        res.send(err)
+    }
+}
+
 
 // Guide post API
 const guideInfo = async (req, res) => {
@@ -139,6 +152,7 @@ exports.singleUser = singleUser;
 exports.organizerInfo = organizerInfo;
 exports.organizerUpdate = organizerUpdate;
 exports.allOrganizers = allOrganizers;
+exports.getSingleOrganizer = getSingleOrganizer;
 
 exports.guideInfo = guideInfo;
 exports.allGuides = allGuides;

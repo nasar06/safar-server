@@ -55,13 +55,10 @@ const imagesSchema = new mongoose.Schema({
 const organizerSchema = new mongoose.Schema({
     email: {
         type: String,
-        required: true,
-        unique: true,
     },
    
     role: {
         type: String,
-        required: true
     },
 //------update
     full_name: {
@@ -70,7 +67,6 @@ const organizerSchema = new mongoose.Schema({
     },
     contact: {
         type: String,
-        unique: true,
     },
     bank_account: {
         type: String,
@@ -78,12 +74,9 @@ const organizerSchema = new mongoose.Schema({
     },
     hotel_id: {
         type: String,
-        unique: true,
     },
     hotel_name: {
         type: String,
-        unique: true,
-        // required: true
     },
     img: {
         type: String,

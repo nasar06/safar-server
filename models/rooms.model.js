@@ -1,8 +1,12 @@
 const mongoose = require("mongoose")
+const { Schema } = mongoose;
 
 //room detail schema
 const roomDetailSchema =new mongoose.Schema(
     {
+        _id: {
+            type: String
+        },
         name: {
             type: String
         },
@@ -39,9 +43,10 @@ const roomDetailSchema =new mongoose.Schema(
                 url: {type: String}
             }
         ]
-    },
-)
+    })
 //Rooms  Model
 const Rooms = mongoose.model('Room', roomDetailSchema);
+const DeletedRooms = mongoose.model('DeletedRoom', roomDetailSchema);
 
 exports.Rooms = Rooms
+exports.DeletedRooms = DeletedRooms
