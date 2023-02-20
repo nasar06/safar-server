@@ -799,7 +799,7 @@
             "name": "Double Room",
             "rooms_no": 442244,
             "status": "active",
-            "hotel_id": "9229219",
+            "hotel_id": "LCAMLmMP16Tw63UUCiECdwatBFW2",
             "price":110,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -877,7 +877,7 @@
             "name": "Single Room",
             "rooms_no": 552244,
             "status": "active",
-            "hotel_id": "8196212",
+            "hotel_id": "CwaGTZizpvVWZ48jP3P3QlA9nii2",
             "price":40,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -955,7 +955,7 @@
             "name": "Standard Twin Room",
             "rooms_no": 552255,
             "status": "active",
-            "hotel_id": "8196212",
+            "hotel_id": "CwaGTZizpvVWZ48jP3P3QlA9nii2",
             "price":130,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1033,7 +1033,7 @@
             "name": "Standard Double Room",
             "rooms_no": 552266,
             "status": "active",
-            "hotel_id": "8196212",
+            "hotel_id": "CwaGTZizpvVWZ48jP3P3QlA9nii2",
             "price":135,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1111,7 +1111,7 @@
             "name": "Basic Triple Room",
             "rooms_no": 552277,
             "status": "active",
-            "hotel_id": "8196212",
+            "hotel_id": "CwaGTZizpvVWZ48jP3P3QlA9nii2",
             "price":90,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1189,7 +1189,7 @@
             "name": "Deluxe Double Room",
             "rooms_no": 552288,
             "status": "active",
-            "hotel_id": "8196212",
+            "hotel_id": "CwaGTZizpvVWZ48jP3P3QlA9nii2",
             "price":230,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1267,7 +1267,7 @@
             "name": "King Room with Garden View",
             "rooms_no": 662244,
             "status": "active",
-            "hotel_id": "3256856",
+            "hotel_id": "LPAL37Y3UOUzEqGXVkW1l98yPas1",
             "price":145,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1345,7 +1345,7 @@
             "name": "Family Room with Balcony",
             "rooms_no": 772244,
             "status": "active",
-            "hotel_id": "1458555",
+            "hotel_id": "XgebRuuAp3My3AzTn923JcreJ383",
             "price":200,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1426,7 +1426,7 @@
             "name": "Double Room with Balcony",
             "rooms_no": 772255,
             "status": "active",
-            "hotel_id": "1458555",
+            "hotel_id": "XgebRuuAp3My3AzTn923JcreJ383",
             "price":160,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1504,7 +1504,7 @@
             "name": "Deluxe Twin Room",
             "rooms_no": 772266,
             "status": "active",
-            "hotel_id": "1458555",
+            "hotel_id": "XgebRuuAp3My3AzTn923JcreJ383",
             "price":170,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1582,7 +1582,7 @@
             "name": "Double Room with Balcony",
             "rooms_no": 882244,
             "status": "active",
-            "hotel_id": "9107586",
+            "hotel_id": "g8PWmZoUoPXhEjnV7EmxodtUWRe2",
             "price":70,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1660,7 +1660,7 @@
             "name": "Deluxe Single Room",
             "rooms_no": 992244,
             "status": "active",
-            "hotel_id": "1442404",
+            "hotel_id": "Ws8zxNW402bRCOChxZ9xyIUv4kb2",
             "price":150,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1738,7 +1738,7 @@
             "name": "Super Deluxe Single Room",
             "rooms_no": 992255,
             "status": "active",
-            "hotel_id": "1442404",
+            "hotel_id": "Ws8zxNW402bRCOChxZ9xyIUv4kb2",
             "price":100,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1816,7 +1816,7 @@
             "name": "Aristocrat Deluxe Couple",
             "rooms_no": 992266,
             "status": "active",
-            "hotel_id": "1442404",
+            "hotel_id": "Ws8zxNW402bRCOChxZ9xyIUv4kb2",
             "price":155,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1895,7 +1895,7 @@
             "name": "Aristocrat Deluxe Twin",
             "rooms_no": 992277,
             "status": "active",
-            "hotel_id": "1442404",
+            "hotel_id": "Ws8zxNW402bRCOChxZ9xyIUv4kb2",
             "price":130,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -1974,7 +1974,7 @@
             "name": "Family Suite",
             "rooms_no": 992288,
             "status": "active",
-            "hotel_id": "1442404",
+            "hotel_id": "Ws8zxNW402bRCOChxZ9xyIUv4kb2",
             "price":230,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -2056,7 +2056,7 @@
             "name": "Aristocrat Suite",
             "rooms_no": 992211,
             "status": "active",
-            "hotel_id": "1442404",
+            "hotel_id": "Ws8zxNW402bRCOChxZ9xyIUv4kb2",
             "price":120,
             "extra_facilities": [
                 {"name": "free_WiFi"},
@@ -2128,6 +2128,73 @@
                 },
                 {
                     "url": "https://i.ibb.co/mBzp7pQ/hotel-sarina-dhaka-9.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Room",
+            "rooms_no": 998855,
+            "status": "active",
+            "hotel_id": "lFlrKQp3KEODiVeVPFuRlybuoGD2",
+            "price":55,
+            "extra_facilities": [
+                {"name": "Balcony"},
+                {"name": "Landmark view"},
+                {"name": "City view"},
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Flat-screen TV"},
+                {"name": "Soundproofing"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Soundproofing"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "Landmark view",
+            "bathroom":[
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Upper floors accessible by stairs only"},
+                {"name": "Linen"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Hand sanitiser"},
+                {"name": "Tea/Coffee maker"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hypoallergenic"},
+                {"name": "Tile/marble floor"}
+            ],
+            "bed": [
+                {
+                    "size": "1 large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/images/hotel/max1024x768/285/285886999.jpg"
+                },
+                {
+                    "url": "https://cf.bstatic.com/images/hotel/max1024x768/297/297008569.jpg"
+                },
+                {
+                    "url": "https://cf.bstatic.com/images/hotel/max1024x768/297/297008558.jpg"
+                },
+                {
+                    "url": "https://cf.bstatic.com/images/hotel/max1024x768/297/297008554.jpg"
+                },
+                {
+                    "url": "https://cf.bstatic.com/images/hotel/max1024x768/322/322140764.jpg"
                 }
             ]
         }
