@@ -144,16 +144,19 @@ const guideUpdate = async (req, res) => {
     }
 }
 
+//user
 exports.userInfo = userInfo;
 exports.usersProfile = usersProfile;
 exports.userUpdate = userUpdate;
 exports.singleUser = singleUser;
 
+//organizer
 exports.organizerInfo = organizerInfo;
 exports.organizerUpdate = organizerUpdate;
 exports.allOrganizers = allOrganizers;
 exports.getSingleOrganizer = getSingleOrganizer;
 
+//guide
 exports.guideInfo = guideInfo;
 exports.allGuides = allGuides;
 exports.guideUpdate = guideUpdate;

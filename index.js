@@ -1,6 +1,6 @@
 const express = require("express")
-require('dotenv').config()
 const cors = require('cors')
+require('dotenv').config()
 const mongoose = require("mongoose")
 const port = process.env.PORT || 5000
 const app = express()
@@ -9,6 +9,12 @@ const app = express()
 app.use(cors());
 app.use(express.json())
 
+// Add middleware to allow cross-origin requests
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
 
 //------------connect to the database with mongoose-------------//
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@safar01.nospyhn.mongodb.net/safar`;

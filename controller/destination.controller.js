@@ -15,7 +15,6 @@ const getAllDestination = async (req, res) => {
 //get single hotel details
 const hotelDetails = async (req, res) => {
     try {
-        console.log(req.params.hotelId)
         const id = req.params.hotelId
         const hotel = await Destination.findOne({ hotel_id: id })
         res.send(hotel)

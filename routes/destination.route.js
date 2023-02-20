@@ -10,5 +10,5 @@ router.get('/get-all-destination-categories', getDestinationCategories)
 router.get('/get-destination-category/:city', getDestinationCategory)
 
 
-router.post('/post-all-destinations',setDataOrganizer, postAllDestination);
+router.post('/post-all-destinations', setDataOrganizer, postAllDestination);
 module.exports = router;
