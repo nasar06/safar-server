@@ -7,6 +7,18 @@ const newOrder = async (req, res)=>{
   res.send(result)
 }
 
+//get all order
+const getAllOrders = async (req, res) =>{
+  try{
+    const result = await Orders.find({})
+    res.send(result)
+  }
+  catch(err){
+    res.send(err)
+    console.log(err)
+  }
+}
+
 //get all orders by email
 const getallOrderbyEmail = async (req, res)=>{
   try{
@@ -26,4 +38,5 @@ const getallOrderbyEmail = async (req, res)=>{
 
 
 exports.newOrder = newOrder
+exports.getAllOrders = getAllOrders
 exports.getallOrderbyEmail = getallOrderbyEmail
