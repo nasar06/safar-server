@@ -452,7 +452,7 @@
         "promoted": ""
     },
     {
-        "hotel_name": "APPAYAN GUEST HOUSE BARIDHARA",
+        "hotel_name": "Appayan Guest House Baridhara 02",
         "description": "Located in Dhaka, 2.7 km from UITS, APPAYAN GUEST HOUSE BARIDHARA provides accommodation with free WiFi and free private parking. The property is around 3.4 km from Consulate of Singapore, 3.5 km from Armed Forces Medical College and 3.5 km from Primeasia University. The accommodation offers room service and an ATM for guests. At the guest house, every room comes with a wardrobe. Complete with a private bathroom equipped with a shower and free toiletries, all units at APPAYAN GUEST HOUSE BARIDHARA have a flat-screen TV and air conditioning, and selected rooms include a balcony. At the accommodation, each room is equipped with a seating area.Southeast University is 3.6 km from APPAYAN GUEST HOUSE BARIDHARA, while AIUB is 3.7 km away. The nearest airport is Hazrat Shahjalal International Airport, 5 km from the guest house.",
         "organizer_email": "halimasultana@gmail.com",
         "offer": true,
@@ -746,5 +746,107 @@
         "contact": "87758844",
         "hotel_id": "lFlrKQp3KEODiVeVPFuRlybuoGD2",
         "promoted": ""
+    },
+    {
+        "hotel_name": "Hotel Noorjahan Grand",
+        "description": "concierge service. The accommodation offers a 24-hour front desk, airport transfers, room service, and free WiFi throughout the property. Every room includes a TV, and certain units at the hotel have a city view. The daily breakfast offers buffet, continental or Full English/Irish options. The nearest airport is Osmani International Airport, 8 km from Hotel Noorjahan Grand. Couples particularly like the location — they rated it 9.1 for a two-person trip.  Hotel Noorjahan Grand has been welcoming Booking.com guests since 26 Apr 2017. Distance in property description is calculated using © OpenStreetMap",
+        "organizer_email": "masud@gmail.com",
+        "offer": false,
+        "location": {
+            "country": "bangladesh",
+            "city": "Sylhet",
+            "address": "Waves 1, Ritz Tower Dargah Gate, 3100 Sylhet, Bangladesh",
+            "zip_code": ""
+        },
+        "images":  [
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280799913.jpg?k=0b9de931b71b4453de2a1f7ad4d81de9f54c5eb03258e773abe376f1a750cf89&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/283890452.jpg?k=dcb51986b7f87fd8019a4e5f53a45f546cd90913776f8aa2c69554ebfce77cbf&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94955014.jpg?k=9e81096d7c57f5f20d91ca3e56206c94145cc1a934cf70967e21e5ac2554233d&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/283890456.jpg?k=ede74a3b1e2eefd8d91ed67fe567f2129eabc93fdacf19674759bd04464956c5&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/96018291.jpg?k=f849b6e2d3cc7c88ca8e53e8712da8c945ef3db549f54ed47be43c9f6114a73b&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/131914611.jpg?k=072066e09179a6cf703a7afe1866c01e7524b8065706ea1147641cd2d3b0e3bf&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/131914615.jpg?k=010b294559ffc40d6dab91f14810be12636487af0cedd99b449bfee68ca80cc2&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97834724.jpg?k=05d2ea02be2e127b01d74f7b80bd1ea119cc0a011a04aa1bd65193af856912f1&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97834728.jpg?k=d12109b04c1225b4f0f5c570a40d41e62ceaa808f8ad3e2daa88817158895664&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954587.jpg?k=f4a34f059918b0f932a058da4b7940f6a0b899ed63ef8f584a3796c6f5d02dbc&o=&hp=1"
+         ],
+        "facilities": [
+            {"name": "Outdoor swimming pool"},
+            {"name": "Free WiFi"},
+            {"name": "Free parking"},
+            {"name": "Family rooms"},
+            {"name": "Airport shuttle"},
+            {"name": "Fitness centre"},
+            {"name": "Non-smoking rooms"},
+            {"name": "Restaurant"},
+            {"name": "Very good breakfast"}
+            
+        ],
+        "room_type": [
+            
+            {
+                "name": "Budget Single Room",
+                "rooms_no": 998877,
+                "bed": [
+                    {
+                        "size": "1 single bed"
+                    }
+                ],
+                "sleep": 1,
+                "price": 50
+            },
+            {
+                "name": "Deluxe Double Room",
+                "rooms_no": 998866,
+                "bed": [
+                    {
+                        "size": "1 extra-large double bed"
+                    }
+                ],
+                "sleep": 2,
+                "price": 60
+            },
+            {
+                "name": "Double or Twin Room",
+                "rooms_no": 998811,
+                "bed": [
+                    {
+                        "size": "2 single beds"
+                    }
+                ],
+                "sleep": 2,
+                "price": 70
+            },
+            {
+                "name": "Deluxe Double Room",
+                "rooms_no": 998833,
+                "bed": [
+                    {
+                        "size": "1 double bed"
+                    }
+                ],
+                "sleep": 2,
+                "price": 65
+            },
+            {
+                "name": "Family Room",
+                "rooms_no": 998823,
+                "bed": [
+                    {
+                        "size": "2 double beds"
+                    }
+                ],
+                "sleep": 4,
+                "price": 150
+            }
+           
+            
+        ],
+        "yearly_deals": false,
+        "monthly_deals": false,
+        "contact": "44522214",
+        "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2",
+        "promoted": ""
     }
+   
 ]
