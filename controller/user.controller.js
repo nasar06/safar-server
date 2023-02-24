@@ -1,6 +1,7 @@
-const { Mongoose } = require("mongoose");
+// const { Mongoose } = require("mongoose");
 const { User, Organizer, Guide } = require("../models/user.model");
 const { jwtSign } = require("../utilities/jwtToken");
+const { ObjectId } = require('mongodb')
 
 
 
@@ -21,13 +22,13 @@ const usersProfile = async (req, res) => {
 };
 
 //get API single user
-const singleUser = async(req, res)=>{
+const singleUser = async (req, res) => {
     console.log(req.query.email)
-    try{
-        const result =await User.findOne({email: req.query.email});
+    try {
+        const result = await User.findOne({ email: req.query.email });
         res.send(result);
     }
-    catch(err){
+    catch (err) {
         console.log(err)
         res.send(err)
     }
@@ -44,7 +45,7 @@ const userUpdate = async (req, res) => {
         const user = await User.updateMany(email, updates, { new: true });
         res.send(user);
     } catch (error) {
-        res.status(400).send('error',error);
+        res.status(400).send('error', error);
     }
 };
 
@@ -64,7 +65,7 @@ const organizerInfo = async (req, res) => {
 
 // all-Organizer get API
 const allOrganizers = async (req, res) => {
-    try{
+    try {
         const sellers = await Organizer.find({});
         res.send(sellers);
     }
@@ -77,26 +78,26 @@ const allOrganizers = async (req, res) => {
 
 // Organizer update API
 const organizerUpdate = async (req, res) => {
-    try{
+    try {
         const email = { email: req.query.email };
         const updateInfo = req.body;
         const result = await Organizer.updateMany(email, updateInfo);
         res.send(result);
     }
-    catch(err){
+    catch (err) {
         console.error(err);
         res.status(400).send(err);
     }
 };
 
 //get single Organizer
-const getSingleOrganizer = async(req, res) =>{
-    try{
+const getSingleOrganizer = async (req, res) => {
+    try {
         console.log(req.query.email)
-        const result =await Organizer.findOne({email: req.query.email})
+        const result = await Organizer.findOne({ email: req.query.email })
         res.send(result)
     }
-    catch(err){
+    catch (err) {
         console.log(err)
         res.send(err)
     }
@@ -105,11 +106,11 @@ const getSingleOrganizer = async(req, res) =>{
 
 // Guide post API
 const guideInfo = async (req, res) => {
-    try{
+    try {
         const guide = await Guide.create(req?.body);
         res.send(guide);
     }
-    catch(err){
+    catch (err) {
         console.error(err);
         res.status(400).send(err);
     }
@@ -118,11 +119,11 @@ const guideInfo = async (req, res) => {
 
 // get all guides API
 const allGuides = async (req, res) => {
-    try{
+    try {
         const guides = await Guide.find({});
         res.send(guides);
     }
-    catch(err){
+    catch (err) {
         console.error(err);
         res.status(400).send(err);
     }
@@ -131,14 +132,27 @@ const allGuides = async (req, res) => {
 
 // Guide Update API
 const guideUpdate = async (req, res) => {
-    try{
-        const email = {email: req?.query.email};
+    try {
+        const email = { email: req?.query.email };
         const updateData = req?.body;
 
         const result = await Guide.updateMany(email, updateData);
         res.send(result);
     }
-    catch(err){
+    catch (err) {
+        console.error(err);
+        res.status(400).send(err);
+    }
+};
+
+
+// get specific guide by id
+const singleGuide = async (req, res) => {
+    try {
+        const singleGuide = await Guide.findById(req.params.id);
+        res.send(singleGuide);
+    }
+    catch (err) {
         console.error(err);
         res.status(400).send(err);
     }
@@ -160,3 +174,4 @@ exports.getSingleOrganizer = getSingleOrganizer;
 exports.guideInfo = guideInfo;
 exports.allGuides = allGuides;
 exports.guideUpdate = guideUpdate;
+exports.singleGuide = singleGuide;
