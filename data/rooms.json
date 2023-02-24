@@ -2197,5 +2197,357 @@
                     "url": "https://cf.bstatic.com/images/hotel/max1024x768/322/322140764.jpg"
                 }
             ]
+        },
+        {
+            "name": "Budget Single Room",
+            "rooms_no": 998877,
+            "status": "active",
+            "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2",
+            "price":50,
+            "extra_facilities": [
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Flat-screen TV"},
+                {"name": "Soundproofing"},
+                {"name": "Minibar"},
+                {"name": "Free WiFi"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "Landmark view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 single bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/96016811.jpg?k=329cd771591426e9e8beb71b6c2dd593cf255276face41f9368261a1341769f8&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94950341.jpg?k=e8555a74463f3c14458374034147017c4269125df26a7b892dbf79f6a9d63d17&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94952438.jpg?k=d325c041ce618d7873e436918e206147c8e473de79e029067d2cb854bbd4d25f&o="
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Double Room",
+            "rooms_no": 998866,
+            "status": "active",
+            "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2",
+            "price":60,
+            "extra_facilities": [
+                {"name": "City view"},
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Flat-screen TV"},
+                {"name": "Soundproofing"},
+                {"name": "Minibar"},
+                {"name": "Free WiFi"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "City view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 extra-large double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954013.jpg?k=1b08e3be3cac8d18e32a9cc24f0160c772ca1af9abc326d40834b1e89c59dca8&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954015.jpg?k=06cec0e19f00251793954e4275b05edfa3e6f606b59b45e1b91561b3b840a95c&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954018.jpg?k=11e5873474bbab8b40d611ad4a00ed670ff8fd00ead0c211de3f399e947cbc53&o="
+                }
+            ]
+        },
+        {
+            "name": "Double or Twin Room",
+            "rooms_no": 998811,
+            "status": "active",
+            "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2",
+            "price":70,
+            "extra_facilities": [
+                {"name": "City view"},
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Flat-screen TV"},
+                {"name": "Soundproofing"},
+                {"name": "Minibar"},
+                {"name": "Free WiFi"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "City view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 single beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954587.jpg?k=9aa412cf9179bfa396882243b4039cd5baead49a266d52f25e629850a9a6826c&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954589.jpg?k=64d4ef576a4577575185f88e5e49e5b83bd009c8b2ec1be21eb35f3cefb1ead1&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94954593.jpg?k=859d7876c571e3a731ae1ad2d1dcca5e1b74ad30b35df187c486cbeaa16e8374&o="
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Double Room",
+            "rooms_no": 998833,
+            "status": "active",
+            "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2",
+            "price":65,
+            "extra_facilities": [
+                {"name": "City view"},
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Flat-screen TV"},
+                {"name": "Soundproofing"},
+                {"name": "Minibar"},
+                {"name": "Free WiFi"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "City view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 double bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94955014.jpg?k=4d8e2f5694a97edf49970bd4ff3265310e3a00f66c825cc4de26530d186040e8&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94955020.jpg?k=ae7a707e3044971764dffb9a8dde2dcb7325f20411693aa118f4ac19e8cf0702&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/283890456.jpg?k=76f9f2fa63a34fbf108a72190366b588c7218864442c7b23ec9f514755e8cf3b&o="
+                }
+            ]
+        },
+        {
+            "name": "Family Room",
+            "rooms_no": 998823,
+            "status": "active",
+            "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2",
+            "price":150,
+            "extra_facilities": [
+                {"name": "City view"},
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Flat-screen TV"},
+                {"name": "Soundproofing"},
+                {"name": "Minibar"},
+                {"name": "Free WiFi"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "City view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "2 double beds"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97834724.jpg?k=50be4b3e426b47c5dbb1426d091dcbdf0d07e2c3ab3d5c9f02ad73f3940ce43c&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94955200.jpg?k=ec8d98620b3c09c000dc878f36b2f4e5b61b05273894ad685fc42eacec67b070&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94955201.jpg?k=298a659369af5b555b8a50418de39cc50a63ee51442d7266eacb5463a7609848&o="
+                }
+            ]
+        },
+        {
+            "name": "Deluxe Single Room",
+            "rooms_no": 845854,
+            "status": "active",
+            "hotel_id": "4SPeXuHj9OhsWyw7Z9ZhuN0bX432",
+            "price":45,
+            "extra_facilities": [
+                {"name": "Air conditioning"},
+                {"name": "Private bathroom"},
+                {"name": "Free WiFi"}
+            ],
+            "room_facilities": [
+                {"name": "Upper floors accessible by elevator"},
+                {"name": "Entire unit wheelchair accessible"},
+                {"name": "Linen"},
+                {"name": "Alarm clock"},
+                {"name": "Wardrobe or closet"},
+                {"name": "Minibar"},
+                {"name": "Air conditioning"},
+                {"name": "Safety deposit box"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Tile/marble floor"},
+                {"name": "Hardwood or parquet floors"},
+                {"name": "Ironing facilities"},
+                {"name": "Iron"}
+            ],
+            "view": "City view",
+            "bathroom":[
+                {"name": "Free toiletries"},
+                {"name": "Slippers"},
+                {"name": "Toilet"},
+                {"name": "Hairdryer"},
+                {"name": "Bath or shower"},
+                {"name": "Additional toilet"},
+                {"name": "Towels"},
+                {"name": "Toilet paper"}
+            ],
+            "bed": [
+                {
+                    "size": "1 single bed"
+                }
+            ],
+            "sleep": 2,
+            "images": [
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79590710.jpg?k=151d6c9a9d08bd61a8855173bfe766377d264d6a9d95988ec03eca95aff07c74&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/55455036.jpg?k=18679e470412e67c46558d15815ebe3a1e6cde042bd50c36b9ba0148630888f8&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/55628269.jpg?k=af124da390e4dcab61aad0913fb54908631cf6f05690ecd342e95d4e38bf4e0c&o="
+                },
+                {
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79590711.jpg?k=0268eb2791a0a0e8e0b0d981a80065dba9430ce024ce8d71bdce3d0b2125f025&o="
+                }
+            ]
         }
 ]

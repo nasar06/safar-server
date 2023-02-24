@@ -44,7 +44,7 @@
     {
         "email": "halimasultana@gmail.com",
         "role": "organizer",
-        "hotel_name": "APPAYAN GUEST HOUSE BARIDHARA",
+        "hotel_name": "APPAYAN GUEST HOUSE BARIDHARA 02",
         "contact": "65465465",
         "hotel_id": "XgebRuuAp3My3AzTn923JcreJ383"
     },
@@ -68,5 +68,12 @@
         "hotel_name": "Jatra Flagship Chattogram City Centre",
         "contact": "87758844",
         "hotel_id": "lFlrKQp3KEODiVeVPFuRlybuoGD2"
+    },
+    {
+        "email": "masud@gmail.com",
+        "role": "organizer",
+        "hotel_name": "Hotel Noorjahan Grand",
+        "contact": "44522214",
+        "hotel_id": "Sow8d1d5x4M8c71qEh3esEUhXDq2"
     }
 ]

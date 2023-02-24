@@ -1,6 +1,7 @@
 const mongoose = require("mongoose")
 
 const ordersSchema = new mongoose.Schema({
+    
     customer_name: {
         type: String
     },
@@ -22,25 +23,25 @@ const ordersSchema = new mongoose.Schema({
     hotel_id: {
         type: String
     },
-    room_type_name: {
+    room_type_name: [{
         type: String
-    },
-    rooms_no: {
+    }],
+    rooms_no: [{
         type: String
-    },
+    }],
     room_quantity: {
         type: Number
     },
-    bed: {
+    bed: [{
         type: String
-    },
+      }],
     total_price: {
         type: Number
     },
     order_id: {
         type: String
     },
-    order_date: {
+    checkIn_date: {
         type: String
     },
     checkout_date: {
@@ -51,16 +52,9 @@ const ordersSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ['pending', 'fulfilled', 'cancelled'],
-        default: 'pending'
       }
-    //   product: {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: 'Product',
-    //     required: true
-    //   },
    
-}, { timestamps: true });
+});
 
 const notificationSchema = new mongoose.Schema({
     message: {
@@ -71,8 +65,8 @@ const notificationSchema = new mongoose.Schema({
 
 
 
-const Order = mongoose.model('Order', ordersSchema)
+const Orders = mongoose.model('Order', ordersSchema)
 const Notification = mongoose.model('Notification', notificationSchema);
 
-exports.Order = Order
+exports.Orders = Orders
 exports.Notification = Notification
