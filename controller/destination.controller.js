@@ -5,8 +5,12 @@ const mongoose = require("mongoose")
 //get all hotels
 const getAllDestination = async (req, res) => {
     try {
-        const result = await Destination.find({})
-        return res.status(200).send(result);
+        const page = parseInt(req.query.page);
+        const size = parseInt(req.query.size);
+        console.log(page, size)
+        const result = await Destination.find({}).skip(page*size).limit(size);
+        const count = await Destination.estimatedDocumentCount();
+        return res.status(200).send({count,result});
     } catch (error) {
         return res.status(400).send();
     }
@@ -64,7 +68,7 @@ const getDestinationCategory = async (req, res) => {
 };
 
 //utilities for organizer
-const setDataOrganizer =async (req, res, next) => {
+const setDataOrganizer = async (req, res, next) => {
     try {
         const organizer = await Organizer.findOneAndUpdate(
             { email: req.body.organizer_email }, // find the organizer using the email field
