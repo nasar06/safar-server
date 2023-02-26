@@ -120,8 +120,20 @@ const guideInfo = async (req, res) => {
 // get all guides API
 const allGuides = async (req, res) => {
     try {
-        const guides = await Guide.find({});
-        res.send(guides);
+        
+        if(req?.query?.id){
+
+            const guides = await Guide.find({_id: req?.query?.id});
+            res.send(guides);
+        }
+        else if(req?.query?.location){
+            const guides = await Guide.find({location: req?.query?.location});
+            res.send(guides);
+        }
+        else{
+            const guides = await Guide.find({});
+            res.send(guides);
+        }
     }
     catch (err) {
         console.error(err);

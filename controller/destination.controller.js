@@ -7,7 +7,6 @@ const getAllDestination = async (req, res) => {
     try {
         const page = parseInt(req.query.page);
         const size = parseInt(req.query.size);
-        console.log(page, size)
         const result = await Destination.find({}).skip(page*size).limit(size);
         const count = await Destination.estimatedDocumentCount();
         return res.status(200).send({count,result});
@@ -39,7 +38,7 @@ const hotelDetailsByEmail = async (req, res) => {
         console.log(err)
         res.send(err)
     }
-}
+};
 
 //get all catagories
 const getDestinationCategories = async (req, res) => {
