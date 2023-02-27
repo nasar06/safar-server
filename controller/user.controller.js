@@ -120,8 +120,29 @@ const guideInfo = async (req, res) => {
 // get all guides API
 const allGuides = async (req, res) => {
     try {
-        const guides = await Guide.find({});
-        res.send(guides);
+        
+        if(req?.query?.name){
+            console.log(req?.query?.name)
+            const guides = await Guide.find({name: req?.query?.name.toLowerCase()});
+            const ngd = guides.map(guide => guide.name);
+            // const nd = guides.map(guide => guide.location);
+            console.log(ngd)
+            if(req?.query?.name === ngd[0]){
+                const nwGuides = await Guide.find({name: req?.query?.name.toLowerCase()});
+                res.send(nwGuides);
+            }
+            
+            else{
+                // console.log(nd)
+                const guides = await Guide.find({location: req?.query?.location.toUpperCase()});
+                res.send(guides);
+        }
+        }
+        else{
+            const guides = await Guide.find({});
+            res.send(guides);
+        }
+        
     }
     catch (err) {
         console.error(err);
